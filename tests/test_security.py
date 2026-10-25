@@ -33,8 +33,14 @@ def test_no_shell_tracing_or_environment_dump_in_project_code():
 
 def test_no_real_credentials_in_committed_templates():
     # Only look for common credential assignment patterns; secret values are never required by tests.
-    for path in [ROOT / "config.json", ROOT / "README.md", ROOT / "docs" / "SECRETS.md"]:
-        text = path.read_text().lower()
+for path in [
+    ROOT / "config.json",
+    ROOT / "README.md",
+    ROOT / "docs" / "SECRETS.md",
+]:
+    if not path.is_file():
+        continue
+    text = path.read_text(encoding="utf-8").lower()
         assert "ghp_" not in text
         assert "ya29." not in text
         assert "sk_live_" not in text
