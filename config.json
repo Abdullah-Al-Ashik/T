@@ -1,0 +1,40 @@
+{
+  "timezone": "America/New_York",
+  "ai": {
+    "provider": "google_ai_studio",
+    "model": "gemini-3.5-flash-lite",
+    "endpoint": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+    "max_frames": 4,
+    "max_attempts": 3,
+    "backoff_seconds": [5, 15],
+    "sample_window_seconds": 5,
+    "max_caption_chars": 500,
+    "max_hashtags": 5,
+    "caption_fallback": "publish_without_caption"
+  },
+  "threads": {
+    "graph_base_url": "https://graph.threads.net",
+    "processing_poll_seconds": 8,
+    "processing_timeout_seconds": 360,
+    "max_attempts_per_run": 4,
+    "backoff_seconds": [30, 120, 300],
+    "background_retry_minutes": 60
+  },
+  "queue": {
+    "video_directory": "videos",
+    "allowed_extensions": [".mp4", ".mov"],
+    "max_jobs_per_run": 1,
+    "dry_run": true,
+    "dry_run_ai": false,
+    "cleanup_temp_media": true
+  },
+  "schedule": {
+    "Monday": ["11:30", "19:30"],
+    "Tuesday": ["09:00", "14:30"],
+    "Wednesday": ["08:00", "18:30"],
+    "Thursday": ["11:00", "15:30"],
+    "Friday": ["08:30", "17:00"],
+    "Saturday": ["10:00", "19:00"],
+    "Sunday": ["09:30", "16:30"]
+  }
+}
