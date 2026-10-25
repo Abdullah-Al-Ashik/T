@@ -1,7 +1,8 @@
 {
-  "schema_version": 1,
-  "videos": {},
-  "slots": {},
+  "duplicates": {},
   "pending_deletions": [],
-  "system": {}
+  "schema_version": 1,
+  "slots": {},
+  "system": {},
+  "videos": {}
 }
