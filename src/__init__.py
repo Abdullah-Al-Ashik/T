@@ -1,1 +1,0 @@
-"""Threads video publisher."""
