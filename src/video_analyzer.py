@@ -34,6 +34,13 @@ def extract_frames(path: Path, max_frames: int = 4, sample_window_seconds: int =
     """Extract representative JPEG frames; requires ffmpeg installed on PATH."""
     if max_frames < 1 or sample_window_seconds < 1:
         raise ValueError("Frame sampling settings must be positive")
+
+    # Check if ffmpeg is available
+    import shutil as sh_util
+    ffmpeg_path = sh_util.which("ffmpeg")
+    if not ffmpeg_path:
+        raise RuntimeError(f"ffmpeg not found on PATH. PATH={os.environ.get('PATH', 'not set')}")
+
     try:
         tempdir = Path(tempfile.mkdtemp(prefix="threads-frames-"))
     except (OSError, FileNotFoundError) as exc:
