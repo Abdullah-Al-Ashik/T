@@ -21,6 +21,20 @@
       "status": "failed",
       "video_id": "2b8ec9c2844dbd5fe28006acbfc169ce5b6fb6545a7afcc71db1cdca0bbcbc31"
     },
+    "5c53f665b08e1af04251a91bf0b48df05876056f3ade5528a939778e0fd5bfe4": {
+      "attempts": 1,
+      "caption": null,
+      "filename": "pinterest_e1_AfqPShw7eZrd2FCK7QFdI6V0z8siYvVUKUV78Zv3V91lupWr4F7f_5297931930887577500.mp4",
+      "last_attempt_at": "2026-10-27T19:44:37.778605+00:00",
+      "last_error_at": "2026-10-27T19:44:37.779228+00:00",
+      "last_error_category": "FileNotFoundError",
+      "last_safe_to_retry": false,
+      "next_retry_at": null,
+      "scheduled_at": "2026-10-27T09:00:00-04:00",
+      "scheduled_slot": "2026-10-27-slot-1",
+      "status": "failed",
+      "video_id": "5c53f665b08e1af04251a91bf0b48df05876056f3ade5528a939778e0fd5bfe4"
+    },
     "c7b226b1e0c66c1411c6d96bfe1f1c2d1268dcc60551f28059e7745815282999": {
       "attempts": 1,
       "caption": null,
