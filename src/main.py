@@ -106,7 +106,12 @@ def run(dry_run: bool = False) -> int:
         video = videos_dir / video_name
     LOG.info("Validating video: path=%s exists=%s", video, video.exists() if hasattr(video, 'exists') else 'unknown')
     validate_video(video)
-    video_id = stable_video_id(video)
+    try:
+        video_id = stable_video_id(video)
+        LOG.info("Computed video_id: %s", video_id[:12])
+    except FileNotFoundError as exc:
+        LOG.error("FileNotFoundError in stable_video_id: video path=%s exists=%s", video, video.exists())
+        raise
     if video_id in state["videos"] and state["videos"][video_id].get("status") == "completed" and state["videos"][video_id].get("filename") != video_name:
         state.setdefault("duplicates", {})[video_name] = {"video_id": video_id, "status": "duplicate_content_already_published", "detected_at": datetime.now(timezone.utc).isoformat()}
         write_state_atomic(STATE_PATH, state)
