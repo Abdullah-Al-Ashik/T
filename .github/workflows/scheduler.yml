@@ -2,34 +2,24 @@ name: Threads video publisher
 
 on:
   schedule:
-    - cron: '30 11 * * 1'
-      timezone: America/New_York
-    - cron: '30 19 * * 1'
-      timezone: America/New_York
-    - cron: '0 9 * * 2'
-      timezone: America/New_York
-    - cron: '30 14 * * 2'
-      timezone: America/New_York
-    - cron: '0 8 * * 3'
-      timezone: America/New_York
-    - cron: '30 18 * * 3'
-      timezone: America/New_York
-    - cron: '0 11 * * 4'
-      timezone: America/New_York
-    - cron: '30 15 * * 4'
-      timezone: America/New_York
-    - cron: '30 8 * * 5'
-      timezone: America/New_York
-    - cron: '0 17 * * 5'
-      timezone: America/New_York
-    - cron: '0 10 * * 6'
-      timezone: America/New_York
-    - cron: '0 19 * * 6'
-      timezone: America/New_York
-    - cron: '30 9 * * 0'
-      timezone: America/New_York
-    - cron: '30 16 * * 0'
-      timezone: America/New_York
+    # Times are in UTC. America/New_York schedule is managed in config.json;
+    # the Python scheduler determines the correct local slot at runtime.
+    # These cron entries approximate EST (UTC-5) to trigger near the right time.
+    # During EDT (UTC-4) they fire ~1 hour late, but the scheduler handles it.
+    - cron: '30 16 * * 1'   # Mon 11:30 ET
+    - cron: '30 0 * * 2'    # Mon 19:30 ET (next day in UTC)
+    - cron: '0 14 * * 2'    # Tue 09:00 ET
+    - cron: '30 19 * * 2'   # Tue 14:30 ET
+    - cron: '0 13 * * 3'    # Wed 08:00 ET
+    - cron: '30 23 * * 3'   # Wed 18:30 ET
+    - cron: '0 16 * * 4'    # Thu 11:00 ET
+    - cron: '30 20 * * 4'   # Thu 15:30 ET
+    - cron: '30 13 * * 5'   # Fri 08:30 ET
+    - cron: '0 22 * * 5'    # Fri 17:00 ET
+    - cron: '0 15 * * 6'    # Sat 10:00 ET
+    - cron: '0 0 * * 0'     # Sat 19:00 ET (next day in UTC)
+    - cron: '30 14 * * 0'   # Sun 09:30 ET
+    - cron: '30 21 * * 0'   # Sun 16:30 ET
   workflow_dispatch:
 
 permissions:

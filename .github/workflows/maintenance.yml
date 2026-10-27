@@ -2,8 +2,7 @@ name: Threads publisher maintenance
 
 on:
   schedule:
-    - cron: '17 * * * *'
-      timezone: America/New_York
+    - cron: '17 * * * *'   # Hourly, in UTC (timezone field is not supported)
   workflow_dispatch:
 
 permissions:

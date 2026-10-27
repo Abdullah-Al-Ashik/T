@@ -34,8 +34,8 @@
       ".mov"
     ],
     "max_jobs_per_run": 1,
-    "dry_run": true,
-    "dry_run_ai": true,
+    "dry_run": false,
+    "dry_run_ai": false,
     "cleanup_temp_media": true
   },
   "schedule": {
