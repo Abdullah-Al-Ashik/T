@@ -34,7 +34,10 @@ def extract_frames(path: Path, max_frames: int = 4, sample_window_seconds: int =
     """Extract representative JPEG frames; requires ffmpeg installed on PATH."""
     if max_frames < 1 or sample_window_seconds < 1:
         raise ValueError("Frame sampling settings must be positive")
-    tempdir = Path(tempfile.mkdtemp(prefix="threads-frames-"))
+    try:
+        tempdir = Path(tempfile.mkdtemp(prefix="threads-frames-"))
+    except (OSError, FileNotFoundError) as exc:
+        raise RuntimeError(f"Failed to create temporary directory for frame extraction: {exc}") from exc
     timestamps = [round(i * sample_window_seconds / max(max_frames - 1, 1), 2) for i in range(max_frames)] if max_frames > 1 else [0.0]
     frames = []
     for idx, ts in enumerate(timestamps):
