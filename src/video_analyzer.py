@@ -42,7 +42,10 @@ def extract_frames(path: Path, max_frames: int = 4, sample_window_seconds: int =
         cmd = ["ffmpeg", "-nostdin", "-v", "error", "-ss", str(ts), "-i", str(path), "-frames:v", "1", "-vf", "scale='min(768,iw)':-2", "-y", str(out)]
         # Video files are untrusted. ffmpeg receives no API/SMTP/GitHub credentials.
         safe_env = {"PATH": os.environ.get("PATH", "/usr/local/bin:/usr/bin:/bin"), "HOME": str(tempdir), "LANG": "C.UTF-8"}
-        result = subprocess.run(cmd, capture_output=True, timeout=30, check=False, text=True, env=safe_env, stdin=subprocess.DEVNULL)
+        try:
+            result = subprocess.run(cmd, capture_output=True, timeout=30, check=False, text=True, env=safe_env, stdin=subprocess.DEVNULL)
+        except FileNotFoundError as exc:
+            raise FileNotFoundError(f"ffmpeg command not found on PATH; ensure ffmpeg is installed") from exc
         if result.returncode == 0 and out.exists() and out.stat().st_size:
             frames.append(out)
     if not frames:
