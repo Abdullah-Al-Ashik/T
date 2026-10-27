@@ -3,6 +3,8 @@
   "pending_deletions": [],
   "schema_version": 1,
   "slots": {},
-  "system": {},
+  "system": {
+    "schedule_initialized_at": "2026-10-27"
+  },
   "videos": {}
 }
