@@ -9,12 +9,40 @@
       "published_at": "2026-10-27T20:55:22.789705+00:00",
       "status": "published",
       "video_id": "c7b226b1e0c66c1411c6d96bfe1f1c2d1268dcc60551f28059e7745815282999"
+    },
+    "2026-10-25-slot-2": {
+      "filename": "Airolo.mp4",
+      "publication_id": "17897741748677204",
+      "published_at": "2026-10-27T23:04:43.720801+00:00",
+      "status": "published",
+      "video_id": "a1da8d0457c4e74ecb2836268937d0c29bada1cc8d10a07acca40eda51961c57"
     }
   },
   "system": {
     "schedule_initialized_at": "2026-10-25"
   },
   "videos": {
+    "a1da8d0457c4e74ecb2836268937d0c29bada1cc8d10a07acca40eda51961c57": {
+      "attempts": 1,
+      "caption": "A scenic journey through alpine villages, vibrant floral displays, and majestic mountain rivers in Switzerland. #Switzerland #Alps #Nature #Travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18143577409611986",
+      "filename": "Airolo.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-10-27T23:04:10.423106+00:00",
+      "last_error": null,
+      "publication_id": "17897741748677204",
+      "published_at": "2026-10-27T23:04:43.720801+00:00",
+      "scheduled_at": "2026-10-25T16:30:00-04:00",
+      "scheduled_slot": "2026-10-25-slot-2",
+      "status": "completed",
+      "video_id": "a1da8d0457c4e74ecb2836268937d0c29bada1cc8d10a07acca40eda51961c57"
+    },
     "c7b226b1e0c66c1411c6d96bfe1f1c2d1268dcc60551f28059e7745815282999": {
       "attempts": 1,
       "caption": "Carving down the slopes with the majestic Matterhorn right in view. Does it get any better than this winter backdrop? #Matterhorn #Skiing #WinterWonderland #Alps #SnowSports",
