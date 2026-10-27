@@ -98,11 +98,13 @@ def run(dry_run: bool = False) -> int:
         work_dir = Path(tempfile.mkdtemp(prefix="threads-video-"))
         try:
             video = download_public_video(owner, repo, branch, video_name, work_dir / video_name)
+            LOG.info("Downloaded video: path=%s exists=%s size=%s", video, video.exists(), video.stat().st_size if video.exists() else 0)
         except Exception as exc:
             shutil.rmtree(work_dir, ignore_errors=True)
             return _notify_system_failure(state, "video_download", type(exc).__name__, dry_run)
     else:
         video = videos_dir / video_name
+    LOG.info("Validating video: path=%s exists=%s", video, video.exists() if hasattr(video, 'exists') else 'unknown')
     validate_video(video)
     video_id = stable_video_id(video)
     if video_id in state["videos"] and state["videos"][video_id].get("status") == "completed" and state["videos"][video_id].get("filename") != video_name:
