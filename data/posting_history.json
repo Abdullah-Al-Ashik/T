@@ -2,81 +2,9 @@
   "duplicates": {},
   "pending_deletions": [],
   "schema_version": 1,
-  "slots": {
-    "2026-10-27-slot-1": {
-      "filename": "pinterest_e1_AfqPShw7eZrd2FCK7QFdI6V0z8siYvVUKUV78Zv3V91lupWr4F7f_5297931930887577500.mp4",
-      "publication_id": "18131303311838475",
-      "published_at": "2026-10-27T20:20:55.152028+00:00",
-      "status": "published",
-      "video_id": "5c53f665b08e1af04251a91bf0b48df05876056f3ade5528a939778e0fd5bfe4"
-    }
-  },
+  "slots": {},
   "system": {
-    "schedule_initialized_at": "2026-10-27"
+    "schedule_initialized_at": "2026-10-25"
   },
-  "videos": {
-    "2b8ec9c2844dbd5fe28006acbfc169ce5b6fb6545a7afcc71db1cdca0bbcbc31": {
-      "attempts": 1,
-      "caption": null,
-      "filename": "pinterest_e1_AfqPShw5KYwn9u17o6f90fcre3QgJ-WjeEUfaCxUR34vRNCrojTYUw.mp4",
-      "last_attempt_at": "2026-10-27T20:04:23.377524+00:00",
-      "last_error_at": "2026-10-27T20:04:23.378325+00:00",
-      "last_error_category": "FileNotFoundError",
-      "last_safe_to_retry": false,
-      "next_retry_at": null,
-      "scheduled_at": "2026-10-27T09:00:00-04:00",
-      "scheduled_slot": "2026-10-27-slot-1",
-      "status": "failed",
-      "video_id": "2b8ec9c2844dbd5fe28006acbfc169ce5b6fb6545a7afcc71db1cdca0bbcbc31"
-    },
-    "5c53f665b08e1af04251a91bf0b48df05876056f3ade5528a939778e0fd5bfe4": {
-      "attempts": 1,
-      "caption": "Breathtaking views of a lush mountain village nestled between towering peaks and rolling green hills. #mountains #village #nature #landscape #travel",
-      "caption_generation_succeeded": true,
-      "container_id": "18143561689611986",
-      "filename": "pinterest_e1_AfqPShw7eZrd2FCK7QFdI6V0z8siYvVUKUV78Zv3V91lupWr4F7f_5297931930887577500.mp4",
-      "frame_timestamps": [
-        0.0,
-        1.67,
-        3.33,
-        5.0
-      ],
-      "last_attempt_at": "2026-10-27T20:20:01.772823+00:00",
-      "last_error": null,
-      "publication_id": "18131303311838475",
-      "published_at": "2026-10-27T20:20:55.152028+00:00",
-      "scheduled_at": "2026-10-27T09:00:00-04:00",
-      "scheduled_slot": "2026-10-27-slot-1",
-      "status": "completed",
-      "video_id": "5c53f665b08e1af04251a91bf0b48df05876056f3ade5528a939778e0fd5bfe4"
-    },
-    "c7b226b1e0c66c1411c6d96bfe1f1c2d1268dcc60551f28059e7745815282999": {
-      "attempts": 1,
-      "caption": null,
-      "filename": "pinterest_e1_AfqPShw2uLJcMiK7uUjLk_0ybLjO4S9ITBcqp3LvPKoj0INPz8Sv_5367657502819284323.mp4",
-      "last_attempt_at": "2026-10-27T19:54:16.661332+00:00",
-      "last_error_at": "2026-10-27T19:54:16.662064+00:00",
-      "last_error_category": "FileNotFoundError",
-      "last_safe_to_retry": false,
-      "next_retry_at": null,
-      "scheduled_at": "2026-10-27T09:00:00-04:00",
-      "scheduled_slot": "2026-10-27-slot-1",
-      "status": "failed",
-      "video_id": "c7b226b1e0c66c1411c6d96bfe1f1c2d1268dcc60551f28059e7745815282999"
-    },
-    "eebbfbeb9492a19d4e5bbd4b2e16a3cf9e4a0e36d62b80e34520970c57a1641d": {
-      "attempts": 1,
-      "caption": null,
-      "filename": "pinterest_e1_AfqPShw3sB6vhfJwDVmmehZ9wxeb_D4er1GZEj36Ey4R6X9nOqEsUA.mp4",
-      "last_attempt_at": "2026-10-27T19:57:18.850507+00:00",
-      "last_error_at": "2026-10-27T19:57:18.851373+00:00",
-      "last_error_category": "FileNotFoundError",
-      "last_safe_to_retry": false,
-      "next_retry_at": null,
-      "scheduled_at": "2026-10-27T09:00:00-04:00",
-      "scheduled_slot": "2026-10-27-slot-1",
-      "status": "failed",
-      "video_id": "eebbfbeb9492a19d4e5bbd4b2e16a3cf9e4a0e36d62b80e34520970c57a1641d"
-    }
-  }
+  "videos": {}
 }
