@@ -45,8 +45,10 @@ def run(dry_run: bool = False) -> int:
         except (TypeError, ValueError):
             schedule_start = local_today
     else:
-        # A fresh installation must not treat the previous year of slots as missed work.
-        schedule_start = local_today
+        # A fresh installation should look back at least 2 days to catch any
+        # slots from the current week that might have already passed today.
+        # The scheduler will still use the actual start date for lookback.
+        schedule_start = local_today - timedelta(days=2)
         if not dry_run:
             system_state["schedule_initialized_at"] = schedule_start.isoformat()
             write_state_atomic(STATE_PATH, state)
