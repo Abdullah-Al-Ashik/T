@@ -132,7 +132,9 @@ def run(dry_run: bool = False) -> int:
         job["scheduled_at"] = job_slot_at
     job["attempts"] = int(job.get("attempts", 0)) + 1
     try:
+        LOG.info("About to extract frames from video: path=%s exists=%s", video, video.exists())
         frames, timestamps = extract_frames(video, config["ai"]["max_frames"], config["ai"]["sample_window_seconds"])
+        LOG.info("Frame extraction completed: %d frames extracted", len(frames))
         LOG.info("Prepared video id=%s frames=%s timestamps=%s model=%s endpoint=%s", video_id[:12], len(frames), timestamps, config["ai"]["model"], config["ai"]["endpoint"])
         caption = job.get("caption")
         ai_ok = bool(caption)
