@@ -19,10 +19,10 @@ class FakeResponse:
 
 def test_public_queue_listing_filters_and_sorts(monkeypatch):
     payload = [
-        {"type": "file", "name": "z.mp4", "size": 200},
-        {"type": "file", "name": "a.MP4", "size": 100},
+        {"type": "file", "name": "z.mp4", "size": 2000},
+        {"type": "file", "name": "a.MP4", "size": 1500},
         {"type": "dir", "name": "nested", "size": 0},
-        {"type": "file", "name": ".hidden.mp4", "size": 100},
+        {"type": "file", "name": ".hidden.mp4", "size": 1500},
         {"type": "file", "name": "huge.mp4", "size": 999999999},
         {"type": "file", "name": "notes.txt", "size": 5},
     ]

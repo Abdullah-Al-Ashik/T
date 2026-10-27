@@ -30,9 +30,9 @@ def test_dst_timezone_slots():
 
 def test_video_discovery_and_hash(tmp_path):
     d = tmp_path / "videos"; d.mkdir()
-    (d / "b.MP4").write_bytes(b"video-b")
-    (d / "a.mp4").write_bytes(b"video-a")
-    (d / ".hidden.mp4").write_bytes(b"hidden")
+    (d / "b.MP4").write_bytes(b"video-b" * 200)
+    (d / "a.mp4").write_bytes(b"video-a" * 200)
+    (d / ".hidden.mp4").write_bytes(b"hidden" * 200)
     (d / "ignore.avi").write_bytes(b"unsupported")
     found = discover_videos(d)
     assert [p.name for p in found] == ["a.mp4", "b.MP4"]
