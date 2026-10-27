@@ -41,7 +41,7 @@ def extract_frames(path: Path, max_frames: int = 4, sample_window_seconds: int =
         out = tempdir / f"frame-{idx:02d}.jpg"
         cmd = ["ffmpeg", "-nostdin", "-v", "error", "-ss", str(ts), "-i", str(path), "-frames:v", "1", "-vf", "scale='min(768,iw)':-2", "-y", str(out)]
         # Video files are untrusted. ffmpeg receives no API/SMTP/GitHub credentials.
-        safe_env = {"PATH": os.environ.get("PATH", "/usr/bin:/bin"), "HOME": str(tempdir), "LANG": "C.UTF-8"}
+        safe_env = {"PATH": os.environ.get("PATH", "/usr/local/bin:/usr/bin:/bin"), "HOME": str(tempdir), "LANG": "C.UTF-8"}
         result = subprocess.run(cmd, capture_output=True, timeout=30, check=False, text=True, env=safe_env, stdin=subprocess.DEVNULL)
         if result.returncode == 0 and out.exists() and out.stat().st_size:
             frames.append(out)
