@@ -1,5 +1,5 @@
 from __future__ import annotations
-import hashlib, subprocess, tempfile, os
+import hashlib, subprocess, tempfile, os, shutil
 from pathlib import Path
 from urllib.parse import quote
 
@@ -36,8 +36,7 @@ def extract_frames(path: Path, max_frames: int = 4, sample_window_seconds: int =
         raise ValueError("Frame sampling settings must be positive")
 
     # Check if ffmpeg is available
-    import shutil as sh_util
-    ffmpeg_path = sh_util.which("ffmpeg")
+    ffmpeg_path = shutil.which("ffmpeg")
     if not ffmpeg_path:
         raise RuntimeError(f"ffmpeg not found on PATH. PATH={os.environ.get('PATH', 'not set')}")
 
