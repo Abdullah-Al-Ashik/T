@@ -68,7 +68,9 @@ def test_ffmpeg_subprocess_does_not_inherit_credentials(monkeypatch, tmp_path):
         return Result()
 
     monkeypatch.setattr(video_analyzer.subprocess, "run", fake_run)
-    monkeypatch.setattr(video_analyzer, "shutil", type("shutil", (), {"which": lambda x: "/usr/bin/ffmpeg"})())
+    def fake_which(cmd_name):
+        return "/usr/bin/ffmpeg"
+    monkeypatch.setattr(video_analyzer, "shutil", type("shutil", (), {"which": fake_which})())
     monkeypatch.setenv("THREADS_ACCESS_TOKEN", "DO_NOT_INHERIT")
 
     frames, _ = video_analyzer.extract_frames(
