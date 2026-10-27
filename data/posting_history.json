@@ -20,6 +20,20 @@
       "scheduled_slot": "2026-10-27-slot-1",
       "status": "failed",
       "video_id": "c7b226b1e0c66c1411c6d96bfe1f1c2d1268dcc60551f28059e7745815282999"
+    },
+    "eebbfbeb9492a19d4e5bbd4b2e16a3cf9e4a0e36d62b80e34520970c57a1641d": {
+      "attempts": 1,
+      "caption": null,
+      "filename": "pinterest_e1_AfqPShw3sB6vhfJwDVmmehZ9wxeb_D4er1GZEj36Ey4R6X9nOqEsUA.mp4",
+      "last_attempt_at": "2026-10-27T19:34:17.065566+00:00",
+      "last_error_at": "2026-10-27T19:34:17.066339+00:00",
+      "last_error_category": "FileNotFoundError",
+      "last_safe_to_retry": false,
+      "next_retry_at": null,
+      "scheduled_at": "2026-10-27T09:00:00-04:00",
+      "scheduled_slot": "2026-10-27-slot-1",
+      "status": "failed",
+      "video_id": "eebbfbeb9492a19d4e5bbd4b2e16a3cf9e4a0e36d62b80e34520970c57a1641d"
     }
   }
 }
