@@ -9,7 +9,7 @@ SUPPORTED = {".mp4", ".mov"}
 def discover_videos(directory: Path) -> list[Path]:
     if not directory.exists():
         return []
-    return sorted((p for p in directory.iterdir() if p.is_file() and not p.name.startswith(".") and p.suffix.lower() in SUPPORTED and not p.name.endswith((".tmp", ".part"))), key=lambda p: p.name.casefold())
+    return sorted((p for p in directory.iterdir() if p.is_file() and not p.name.startswith(".") and p.suffix.lower() in SUPPORTED and not p.name.endswith((".tmp", ".part")) and p.stat().st_size >= 1024), key=lambda p: p.name.casefold())
 
 
 def stable_video_id(path: Path) -> str:

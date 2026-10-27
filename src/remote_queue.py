@@ -36,7 +36,7 @@ def discover_public_video_names(owner: str, repo: str, branch: str, timeout: int
         size = item.get("size", 0)
         if not isinstance(name, str) or not name or name.startswith(".") or "/" in name or "\\" in name or ".." in name or name.endswith((".tmp", ".part")):
             continue
-        if Path(name).suffix.lower() not in SUPPORTED or not isinstance(size, int) or size <= 0 or size > MAX_VIDEO_BYTES:
+        if Path(name).suffix.lower() not in SUPPORTED or not isinstance(size, int) or size < 1024 or size > MAX_VIDEO_BYTES:
             continue
         names.append(name)
     return sorted(set(names), key=str.casefold)
