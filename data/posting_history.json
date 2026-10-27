@@ -2,7 +2,15 @@
   "duplicates": {},
   "pending_deletions": [],
   "schema_version": 1,
-  "slots": {},
+  "slots": {
+    "2026-10-27-slot-1": {
+      "filename": "pinterest_e1_AfqPShw7eZrd2FCK7QFdI6V0z8siYvVUKUV78Zv3V91lupWr4F7f_5297931930887577500.mp4",
+      "publication_id": "18131303311838475",
+      "published_at": "2026-10-27T20:20:55.152028+00:00",
+      "status": "published",
+      "video_id": "5c53f665b08e1af04251a91bf0b48df05876056f3ade5528a939778e0fd5bfe4"
+    }
+  },
   "system": {
     "schedule_initialized_at": "2026-10-27"
   },
@@ -20,6 +28,27 @@
       "scheduled_slot": "2026-10-27-slot-1",
       "status": "failed",
       "video_id": "2b8ec9c2844dbd5fe28006acbfc169ce5b6fb6545a7afcc71db1cdca0bbcbc31"
+    },
+    "5c53f665b08e1af04251a91bf0b48df05876056f3ade5528a939778e0fd5bfe4": {
+      "attempts": 1,
+      "caption": "Breathtaking views of a lush mountain village nestled between towering peaks and rolling green hills. #mountains #village #nature #landscape #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18143561689611986",
+      "filename": "pinterest_e1_AfqPShw7eZrd2FCK7QFdI6V0z8siYvVUKUV78Zv3V91lupWr4F7f_5297931930887577500.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-10-27T20:20:01.772823+00:00",
+      "last_error": null,
+      "publication_id": "18131303311838475",
+      "published_at": "2026-10-27T20:20:55.152028+00:00",
+      "scheduled_at": "2026-10-27T09:00:00-04:00",
+      "scheduled_slot": "2026-10-27-slot-1",
+      "status": "completed",
+      "video_id": "5c53f665b08e1af04251a91bf0b48df05876056f3ade5528a939778e0fd5bfe4"
     },
     "c7b226b1e0c66c1411c6d96bfe1f1c2d1268dcc60551f28059e7745815282999": {
       "attempts": 1,
