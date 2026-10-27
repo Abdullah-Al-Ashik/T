@@ -31,7 +31,6 @@ def run(dry_run: bool = False) -> int:
     state = read_state(STATE_PATH)
     trigger_cron = os.getenv("TRIGGERING_CRON", "")
     if dry_run and trigger_cron == "17 * * * *":
-        LOG.info("Dry-run mode is enabled; hourly maintenance does not scan or download videos")
         return 0
     videos_dir = ROOT / config["queue"]["video_directory"]
     owner, repo, branch = (os.getenv(k, "") for k in ("PUBLIC_REPO_OWNER", "PUBLIC_REPO_NAME", "PUBLIC_REPO_BRANCH"))
@@ -63,10 +62,7 @@ def run(dry_run: bool = False) -> int:
         LOG.error("Found interrupted processing jobs; marked them reconcile_required and will not republish them automatically")
     retryable = [v for v in state["videos"].values() if v.get("status") == "retry_wait" and v.get("next_retry_at") and v["next_retry_at"] <= now_iso]
     if not overdue and not retryable and not dry_run:
-        LOG.info("No overdue posting slot or due retry; no publication work is due")
         return 0
-    if not overdue and not retryable and dry_run:
-        LOG.info("DRY RUN: no due slot; queue input validation may still be demonstrated")
     jobs_by_name = {v.get("filename"): v for v in state["videos"].values() if v.get("filename")}
     duplicate_names = set(state.get("duplicates", {}).keys())
     queue_names = []
@@ -98,20 +94,13 @@ def run(dry_run: bool = False) -> int:
         work_dir = Path(tempfile.mkdtemp(prefix="threads-video-"))
         try:
             video = download_public_video(owner, repo, branch, video_name, work_dir / video_name)
-            LOG.info("Downloaded video: path=%s exists=%s size=%s", video, video.exists(), video.stat().st_size if video.exists() else 0)
         except Exception as exc:
             shutil.rmtree(work_dir, ignore_errors=True)
             return _notify_system_failure(state, "video_download", type(exc).__name__, dry_run)
     else:
         video = videos_dir / video_name
-    LOG.info("Validating video: path=%s exists=%s", video, video.exists() if hasattr(video, 'exists') else 'unknown')
     validate_video(video)
-    try:
-        video_id = stable_video_id(video)
-        LOG.info("Computed video_id: %s", video_id[:12])
-    except FileNotFoundError as exc:
-        LOG.error("FileNotFoundError in stable_video_id: video path=%s exists=%s", video, video.exists())
-        raise
+    video_id = stable_video_id(video)
     if video_id in state["videos"] and state["videos"][video_id].get("status") == "completed" and state["videos"][video_id].get("filename") != video_name:
         state.setdefault("duplicates", {})[video_name] = {"video_id": video_id, "status": "duplicate_content_already_published", "detected_at": datetime.now(timezone.utc).isoformat()}
         write_state_atomic(STATE_PATH, state)
@@ -132,10 +121,7 @@ def run(dry_run: bool = False) -> int:
         job["scheduled_at"] = job_slot_at
     job["attempts"] = int(job.get("attempts", 0)) + 1
     try:
-        LOG.info("About to extract frames from video: path=%s exists=%s", video, video.exists())
         frames, timestamps = extract_frames(video, config["ai"]["max_frames"], config["ai"]["sample_window_seconds"])
-        LOG.info("Frame extraction completed: %d frames extracted", len(frames))
-        LOG.info("Prepared video id=%s frames=%s timestamps=%s model=%s endpoint=%s", video_id[:12], len(frames), timestamps, config["ai"]["model"], config["ai"]["endpoint"])
         caption = job.get("caption")
         ai_ok = bool(caption)
         if not caption and (not dry_run or config["queue"].get("dry_run_ai", False)):
@@ -161,9 +147,6 @@ def run(dry_run: bool = False) -> int:
                     break
         if dry_run:
             raw_url = public_raw_url(owner or "owner", repo or "repo", branch or "main", video_name)
-            LOG.info("DRY RUN: planned slot=%s; would create Threads video container, poll processing, publish, then persist completion and delete the queued file", job_slot_id or "none")
-            LOG.info("DRY RUN: simulated transitions pending -> processing -> published; no state is committed and no queue file is deleted")
-            LOG.info("DRY RUN: caption=%s; ai_enabled=%s; raw URL is a placeholder unless PUBLIC_REPO_* values are set", "present" if caption else "empty", bool(os.getenv("AI_API_KEY")))
             job.update({"status": "pending", "last_error": None, "dry_run_at": now, "frame_timestamps": timestamps})
             return 0
         if not all((owner, repo, branch)):
@@ -198,7 +181,6 @@ def run(dry_run: bool = False) -> int:
         if job_slot_id:
             state["slots"][job_slot_id] = {"video_id": video_id, "filename": video_name, "publication_id": result["publication_id"], "status": "published", "published_at": completed_at}
         write_state_atomic(STATE_PATH, state)
-        LOG.info("Publication confirmed for video id=%s; deletion is pending a separate repository commit job", video_id[:12])
         return 0
     except Exception as exc:
         err = exc if isinstance(exc, ThreadsError) else None

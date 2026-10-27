@@ -59,9 +59,9 @@ class StateManager:
     def __init__(self, state_path: Path, history_path: Path):
         self.state_path = Path(state_path)
         self.history_path = Path(history_path)
-        self.state = self._load(self.state_path, {"schema_version": 1, "jobs": {}, "slots": {}})
+        self.state = self._load(self.state_path, {"schema_version": 1, "videos": {}, "slots": {}})
         self.history = self._load(self.history_path, {"schema_version": 1, "posts": []})
-        if not isinstance(self.state.get("jobs"), dict) or not isinstance(self.history.get("posts"), list):
+        if not isinstance(self.state.get("videos"), dict) or not isinstance(self.history.get("posts"), list):
             raise ValueError("State or history schema is invalid")
 
     @staticmethod
@@ -76,22 +76,22 @@ class StateManager:
             raise ValueError("State file must contain a JSON object")
         return data
 
-    def update_job(self, job_id: str, **fields) -> None:
-        if not job_id or not isinstance(job_id, str):
-            raise ValueError("job_id is required")
-        job = self.state["jobs"].setdefault(job_id, {"job_id": job_id, "status": "pending"})
+    def update_job(self, video_id: str, **fields) -> None:
+        if not video_id or not isinstance(video_id, str):
+            raise ValueError("video_id is required")
+        job = self.state["videos"].setdefault(video_id, {"video_id": video_id, "status": "pending"})
         job.update(fields)
-        write_state_atomic(self.state_path, {"schema_version": 1, "jobs": self.state["jobs"], "slots": self.state.get("slots", {})})
+        write_state_atomic(self.state_path, {"schema_version": 1, "videos": self.state["videos"], "slots": self.state.get("slots", {})})
 
-    def mark_published(self, job_id: str, record: dict) -> None:
+    def mark_published(self, video_id: str, record: dict) -> None:
         if not record.get("publication_id"):
             raise ValueError("publication_id is required to mark a job published")
-        job = self.state["jobs"].setdefault(job_id, {"job_id": job_id})
+        job = self.state["videos"].setdefault(video_id, {"video_id": video_id})
         job.update(record)
         job["status"] = "completed"
         if not any(p.get("publication_id") == record["publication_id"] for p in self.history["posts"]):
             self.history["posts"].append(dict(record))
-        write_state_atomic(self.state_path, {"schema_version": 1, "jobs": self.state["jobs"], "slots": self.state.get("slots", {})})
+        write_state_atomic(self.state_path, {"schema_version": 1, "videos": self.state["videos"], "slots": self.state.get("slots", {})})
         self.history_path.parent.mkdir(parents=True, exist_ok=True)
         fd, temp_name = tempfile.mkstemp(prefix=f".{self.history_path.name}.", suffix=".tmp", dir=self.history_path.parent)
         try:
