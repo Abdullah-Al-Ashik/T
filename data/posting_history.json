@@ -16,6 +16,13 @@
       "published_at": "2026-10-27T23:04:43.720801+00:00",
       "status": "published",
       "video_id": "a1da8d0457c4e74ecb2836268937d0c29bada1cc8d10a07acca40eda51961c57"
+    },
+    "2026-10-26-slot-1": {
+      "filename": "Aletsch.mp4",
+      "publication_id": "18137842117632560",
+      "published_at": "2026-10-28T18:36:11.581904+00:00",
+      "status": "published",
+      "video_id": "ffa3bd51b4c84b4bd34ea72c98d7ff4a238a974702c1239090851a3f7a139825"
     }
   },
   "system": {
@@ -63,6 +70,27 @@
       "scheduled_slot": "2026-10-25-slot-1",
       "status": "completed",
       "video_id": "c7b226b1e0c66c1411c6d96bfe1f1c2d1268dcc60551f28059e7745815282999"
+    },
+    "ffa3bd51b4c84b4bd34ea72c98d7ff4a238a974702c1239090851a3f7a139825": {
+      "attempts": 1,
+      "caption": "A breathtaking alpine view unfolds as the camera pans slowly across a charming Swiss village nestled beside a vibrant turquoise lake and majestic green mountains. #Switzerland #AlpineVillage #NatureBeauty #ScenicView #TravelInspo",
+      "caption_generation_succeeded": true,
+      "container_id": "18143698567611986",
+      "filename": "Aletsch.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-10-28T18:34:19.795433+00:00",
+      "last_error": null,
+      "publication_id": "18137842117632560",
+      "published_at": "2026-10-28T18:36:11.581904+00:00",
+      "scheduled_at": "2026-10-26T11:30:00-04:00",
+      "scheduled_slot": "2026-10-26-slot-1",
+      "status": "completed",
+      "video_id": "ffa3bd51b4c84b4bd34ea72c98d7ff4a238a974702c1239090851a3f7a139825"
     }
   }
 }
