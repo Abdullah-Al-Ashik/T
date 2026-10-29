@@ -90,6 +90,16 @@ def run(dry_run: bool = False) -> int:
     if not eligible:
         LOG.info("No eligible due video job found")
         return 0
+
+    published_video_ids = {v["video_id"] for v in state["videos"].values() if v.get("status") == "completed"}
+    if not remote_mode:
+        eligible = [name for name in eligible if stable_video_id(videos_dir / name) not in published_video_ids]
+    # For remote_mode, we can't check content hash before download.
+    # The duplicate check happens after download (lines 125-132).
+    if not eligible:
+        LOG.info("No new eligible content found after duplicate check")
+        return 0
+
     video_name = eligible[0]
     work_dir = None
     if remote_mode:
