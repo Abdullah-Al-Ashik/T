@@ -30,12 +30,41 @@
       "published_at": "2026-10-29T02:41:29.897731+00:00",
       "status": "published",
       "video_id": "64a1bdebcfe60a2a572306c0481fdb5dff56e0273c5ee139d49ac6d8c55e43eb"
+    },
+    "2026-10-27-slot-1": {
+      "claimed_at": "2026-10-29T20:45:14.081241+00:00",
+      "filename": "Vals.mp4",
+      "publication_id": "18116881778046821",
+      "published_at": "2026-10-29T20:45:52.418098+00:00",
+      "status": "published",
+      "video_id": "5c0c76e8969c3659222e24b9c5d59468bcd23fb266011261d5f605b0c29def1f"
     }
   },
   "system": {
     "schedule_initialized_at": "2026-10-25"
   },
   "videos": {
+    "5c0c76e8969c3659222e24b9c5d59468bcd23fb266011261d5f605b0c29def1f": {
+      "attempts": 1,
+      "caption": "Exploring picturesque Alpine landscapes featuring serene lakes, traditional wooden chalets, majestic waterfalls, and grazing cows along winding country paths. #Switzerland #Alpine #Nature #Waterfall #Travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18143870764611986",
+      "filename": "Vals.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-10-29T20:45:14.081241+00:00",
+      "last_error": null,
+      "publication_id": "18116881778046821",
+      "published_at": "2026-10-29T20:45:52.418098+00:00",
+      "scheduled_at": "2026-10-27T09:00:00-04:00",
+      "scheduled_slot": "2026-10-27-slot-1",
+      "status": "completed",
+      "video_id": "5c0c76e8969c3659222e24b9c5d59468bcd23fb266011261d5f605b0c29def1f"
+    },
     "64a1bdebcfe60a2a572306c0481fdb5dff56e0273c5ee139d49ac6d8c55e43eb": {
       "attempts": 1,
       "caption": "A scenic journey through alpine villages, passing traditional wooden chalets, rolling green hills, cascading waterfalls, and mountain railways. #switzerland #alps #travel #nature #landscape",
