@@ -46,6 +46,14 @@
       "published_at": "2026-10-30T00:09:59.395316+00:00",
       "status": "published",
       "video_id": "adb41eedba892a7ca9822e927ff698e9217f9f9b7a7534a274b7efcd16e8001a"
+    },
+    "2026-10-28-slot-1": {
+      "claimed_at": "2026-10-30T18:42:20.378879+00:00",
+      "filename": "Wengen.mp4",
+      "publication_id": "18132692593774739",
+      "published_at": "2026-10-30T18:42:54.063532+00:00",
+      "status": "published",
+      "video_id": "f06fb4af7fd1e2ad741063f69364a949b42d634c127d0f56029d0699ae5dc869"
     }
   },
   "system": {
@@ -156,6 +164,27 @@
       "scheduled_slot": "2026-10-25-slot-1",
       "status": "completed",
       "video_id": "c7b226b1e0c66c1411c6d96bfe1f1c2d1268dcc60551f28059e7745815282999"
+    },
+    "f06fb4af7fd1e2ad741063f69364a949b42d634c127d0f56029d0699ae5dc869": {
+      "attempts": 1,
+      "caption": "A winding cobblestone path strewn with fallen autumn leaves leads through a quiet mountain village nestled between vibrant autumn slopes and dramatic overcast peaks. #fallvibes #mountainvillage #autumncolors #nature #scenicviews",
+      "caption_generation_succeeded": true,
+      "container_id": "18143973826611986",
+      "filename": "Wengen.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-10-30T18:42:20.378879+00:00",
+      "last_error": null,
+      "publication_id": "18132692593774739",
+      "published_at": "2026-10-30T18:42:54.063532+00:00",
+      "scheduled_at": "2026-10-28T08:00:00-04:00",
+      "scheduled_slot": "2026-10-28-slot-1",
+      "status": "completed",
+      "video_id": "f06fb4af7fd1e2ad741063f69364a949b42d634c127d0f56029d0699ae5dc869"
     },
     "ffa3bd51b4c84b4bd34ea72c98d7ff4a238a974702c1239090851a3f7a139825": {
       "attempts": 1,
