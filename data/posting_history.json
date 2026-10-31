@@ -62,6 +62,14 @@
       "published_at": "2026-10-31T01:08:45.670547+00:00",
       "status": "published",
       "video_id": "2b8ec9c2844dbd5fe28006acbfc169ce5b6fb6545a7afcc71db1cdca0bbcbc31"
+    },
+    "2026-10-29-slot-1": {
+      "claimed_at": "2026-10-31T18:55:03.398112+00:00",
+      "filename": "Stein.mp4",
+      "publication_id": "18195605218400027",
+      "published_at": "2026-10-31T18:55:36.613398+00:00",
+      "status": "published",
+      "video_id": "a02662a808350630be76997527112c4216252394c6bc03e75ee22b2649f10069"
     }
   },
   "system": {
@@ -130,6 +138,27 @@
       "scheduled_slot": "2026-10-26-slot-2",
       "status": "completed",
       "video_id": "64a1bdebcfe60a2a572306c0481fdb5dff56e0273c5ee139d49ac6d8c55e43eb"
+    },
+    "a02662a808350630be76997527112c4216252394c6bc03e75ee22b2649f10069": {
+      "attempts": 1,
+      "caption": "Lost in the vibrant greens and towering peaks of this hidden alpine valley. #nature #mountains #valley #landscape #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18144104800611986",
+      "filename": "Stein.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-10-31T18:55:03.398112+00:00",
+      "last_error": null,
+      "publication_id": "18195605218400027",
+      "published_at": "2026-10-31T18:55:36.613398+00:00",
+      "scheduled_at": "2026-10-29T11:00:00-04:00",
+      "scheduled_slot": "2026-10-29-slot-1",
+      "status": "completed",
+      "video_id": "a02662a808350630be76997527112c4216252394c6bc03e75ee22b2649f10069"
     },
     "a1da8d0457c4e74ecb2836268937d0c29bada1cc8d10a07acca40eda51961c57": {
       "attempts": 1,
