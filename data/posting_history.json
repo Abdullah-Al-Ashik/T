@@ -70,6 +70,14 @@
       "published_at": "2026-10-31T18:55:36.613398+00:00",
       "status": "published",
       "video_id": "a02662a808350630be76997527112c4216252394c6bc03e75ee22b2649f10069"
+    },
+    "2026-10-29-slot-2": {
+      "claimed_at": "2026-11-01T04:52:39.512940+00:00",
+      "filename": "StMoritz.mp4",
+      "publication_id": "18132906913808849",
+      "published_at": "2026-11-01T04:53:23.924392+00:00",
+      "status": "published",
+      "video_id": "79b51f8edf817e88aa3f5aa03e2d44d9acc4af6e6c35f817a82292634adccdf8"
     }
   },
   "system": {
@@ -138,6 +146,27 @@
       "scheduled_slot": "2026-10-26-slot-2",
       "status": "completed",
       "video_id": "64a1bdebcfe60a2a572306c0481fdb5dff56e0273c5ee139d49ac6d8c55e43eb"
+    },
+    "79b51f8edf817e88aa3f5aa03e2d44d9acc4af6e6c35f817a82292634adccdf8": {
+      "attempts": 1,
+      "caption": "Chasing waterfalls in this peaceful alpine valley. Can you spot the cows grazing in the lush green meadow? #waterfall #alps #nature #travel #landscape",
+      "caption_generation_succeeded": true,
+      "container_id": "18144159112611986",
+      "filename": "StMoritz.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-01T04:52:39.512940+00:00",
+      "last_error": null,
+      "publication_id": "18132906913808849",
+      "published_at": "2026-11-01T04:53:23.924392+00:00",
+      "scheduled_at": "2026-10-29T15:30:00-04:00",
+      "scheduled_slot": "2026-10-29-slot-2",
+      "status": "completed",
+      "video_id": "79b51f8edf817e88aa3f5aa03e2d44d9acc4af6e6c35f817a82292634adccdf8"
     },
     "a02662a808350630be76997527112c4216252394c6bc03e75ee22b2649f10069": {
       "attempts": 1,
