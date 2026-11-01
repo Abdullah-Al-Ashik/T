@@ -78,6 +78,14 @@
       "published_at": "2026-11-01T04:53:23.924392+00:00",
       "status": "published",
       "video_id": "79b51f8edf817e88aa3f5aa03e2d44d9acc4af6e6c35f817a82292634adccdf8"
+    },
+    "2026-10-30-slot-1": {
+      "claimed_at": "2026-11-01T19:04:27.680436+00:00",
+      "filename": "Stoos.mp4",
+      "publication_id": "18115347347109957",
+      "published_at": "2026-11-01T19:05:02.915985+00:00",
+      "status": "published",
+      "video_id": "32ff6f9522e4ee8b99d25c68abf8ca45583e5247851ab072dfa983483fba5c41"
     }
   },
   "system": {
@@ -104,6 +112,27 @@
       "scheduled_slot": "2026-10-28-slot-2",
       "status": "completed",
       "video_id": "2b8ec9c2844dbd5fe28006acbfc169ce5b6fb6545a7afcc71db1cdca0bbcbc31"
+    },
+    "32ff6f9522e4ee8b99d25c68abf8ca45583e5247851ab072dfa983483fba5c41": {
+      "attempts": 1,
+      "caption": "Following this alpine trail leads to one of the most stunning turquoise lake views framed by towering snowy peaks. #alps #hiking #mountainview #nature #switzerland",
+      "caption_generation_succeeded": true,
+      "container_id": "18144242269611986",
+      "filename": "Stoos.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-01T19:04:27.680436+00:00",
+      "last_error": null,
+      "publication_id": "18115347347109957",
+      "published_at": "2026-11-01T19:05:02.915985+00:00",
+      "scheduled_at": "2026-10-30T08:30:00-04:00",
+      "scheduled_slot": "2026-10-30-slot-1",
+      "status": "completed",
+      "video_id": "32ff6f9522e4ee8b99d25c68abf8ca45583e5247851ab072dfa983483fba5c41"
     },
     "5c0c76e8969c3659222e24b9c5d59468bcd23fb266011261d5f605b0c29def1f": {
       "attempts": 1,
