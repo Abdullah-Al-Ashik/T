@@ -94,6 +94,14 @@
       "published_at": "2026-11-02T01:00:24.198203+00:00",
       "status": "published",
       "video_id": "82aaebed82c348407459efb665ccea58d9ad6bd2fe7a7336c1b9e19668f3f276"
+    },
+    "2026-10-31-slot-1": {
+      "claimed_at": "2026-11-02T23:38:34.190563+00:00",
+      "filename": "Thun.mp4",
+      "publication_id": "18120765494517399",
+      "published_at": "2026-11-02T23:39:17.818542+00:00",
+      "status": "published",
+      "video_id": "cca6556f8392d8d33a58dc1c48947824885f5666980c28fecd74fd29ecdba6ae"
     }
   },
   "system": {
@@ -309,6 +317,26 @@
       "scheduled_slot": "2026-10-25-slot-1",
       "status": "completed",
       "video_id": "c7b226b1e0c66c1411c6d96bfe1f1c2d1268dcc60551f28059e7745815282999"
+    },
+    "cca6556f8392d8d33a58dc1c48947824885f5666980c28fecd74fd29ecdba6ae": {
+      "attempts": 1,
+      "caption": "Where the water meets the mountains. Have you ever visited a valley this peaceful? #nature #mountains #alpine #landscape #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18144378607611986",
+      "filename": "Thun.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33
+      ],
+      "last_attempt_at": "2026-11-02T23:38:34.190563+00:00",
+      "last_error": null,
+      "publication_id": "18120765494517399",
+      "published_at": "2026-11-02T23:39:17.818542+00:00",
+      "scheduled_at": "2026-10-31T10:00:00-04:00",
+      "scheduled_slot": "2026-10-31-slot-1",
+      "status": "completed",
+      "video_id": "cca6556f8392d8d33a58dc1c48947824885f5666980c28fecd74fd29ecdba6ae"
     },
     "f06fb4af7fd1e2ad741063f69364a949b42d634c127d0f56029d0699ae5dc869": {
       "attempts": 1,
