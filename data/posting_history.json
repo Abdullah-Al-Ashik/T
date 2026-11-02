@@ -86,6 +86,14 @@
       "published_at": "2026-11-01T19:05:02.915985+00:00",
       "status": "published",
       "video_id": "32ff6f9522e4ee8b99d25c68abf8ca45583e5247851ab072dfa983483fba5c41"
+    },
+    "2026-10-30-slot-2": {
+      "claimed_at": "2026-11-02T00:59:48.746461+00:00",
+      "filename": "Susten.mp4",
+      "publication_id": "18599340589069766",
+      "published_at": "2026-11-02T01:00:24.198203+00:00",
+      "status": "published",
+      "video_id": "82aaebed82c348407459efb665ccea58d9ad6bd2fe7a7336c1b9e19668f3f276"
     }
   },
   "system": {
@@ -196,6 +204,27 @@
       "scheduled_slot": "2026-10-29-slot-2",
       "status": "completed",
       "video_id": "79b51f8edf817e88aa3f5aa03e2d44d9acc4af6e6c35f817a82292634adccdf8"
+    },
+    "82aaebed82c348407459efb665ccea58d9ad6bd2fe7a7336c1b9e19668f3f276": {
+      "attempts": 1,
+      "caption": "Misty morning views over the lush green valley and towering cliffs. #nature #mountains #landscape #valley #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18144270295611986",
+      "filename": "Susten.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-02T00:59:48.746461+00:00",
+      "last_error": null,
+      "publication_id": "18599340589069766",
+      "published_at": "2026-11-02T01:00:24.198203+00:00",
+      "scheduled_at": "2026-10-30T17:00:00-04:00",
+      "scheduled_slot": "2026-10-30-slot-2",
+      "status": "completed",
+      "video_id": "82aaebed82c348407459efb665ccea58d9ad6bd2fe7a7336c1b9e19668f3f276"
     },
     "a02662a808350630be76997527112c4216252394c6bc03e75ee22b2649f10069": {
       "attempts": 1,
