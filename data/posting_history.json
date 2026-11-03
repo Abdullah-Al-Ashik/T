@@ -110,6 +110,14 @@
       "published_at": "2026-11-03T07:02:50.681105+00:00",
       "status": "published",
       "video_id": "d0cd8a82102f0f3db93e1ee6bc5e2e29ca0c5e85a7d436706a4bae148a6f724b"
+    },
+    "2026-11-01-slot-1": {
+      "claimed_at": "2026-11-03T20:28:11.003056+00:00",
+      "filename": "Schilthorn.mp4",
+      "publication_id": "17945398320364590",
+      "published_at": "2026-11-03T20:28:43.968113+00:00",
+      "status": "published",
+      "video_id": "f3496b5bdf088abbd64b1b6420e41ddc6bb3f0006bdf9e961bb6a527f1d74510"
     }
   },
   "system": {
@@ -387,6 +395,27 @@
       "scheduled_slot": "2026-10-28-slot-1",
       "status": "completed",
       "video_id": "f06fb4af7fd1e2ad741063f69364a949b42d634c127d0f56029d0699ae5dc869"
+    },
+    "f3496b5bdf088abbd64b1b6420e41ddc6bb3f0006bdf9e961bb6a527f1d74510": {
+      "attempts": 1,
+      "caption": "Lost in the green embrace of these mountain valleys. Would you take this trail? #nature #mountains #hiking #landscape",
+      "caption_generation_succeeded": true,
+      "container_id": "18144486379611986",
+      "filename": "Schilthorn.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-03T20:28:11.003056+00:00",
+      "last_error": null,
+      "publication_id": "17945398320364590",
+      "published_at": "2026-11-03T20:28:43.968113+00:00",
+      "scheduled_at": "2026-11-01T09:30:00-05:00",
+      "scheduled_slot": "2026-11-01-slot-1",
+      "status": "completed",
+      "video_id": "f3496b5bdf088abbd64b1b6420e41ddc6bb3f0006bdf9e961bb6a527f1d74510"
     },
     "ffa3bd51b4c84b4bd34ea72c98d7ff4a238a974702c1239090851a3f7a139825": {
       "attempts": 1,
