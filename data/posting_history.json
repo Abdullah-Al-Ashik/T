@@ -102,6 +102,14 @@
       "published_at": "2026-11-02T23:39:17.818542+00:00",
       "status": "published",
       "video_id": "cca6556f8392d8d33a58dc1c48947824885f5666980c28fecd74fd29ecdba6ae"
+    },
+    "2026-10-31-slot-2": {
+      "claimed_at": "2026-11-03T07:02:15.216889+00:00",
+      "filename": "Ticino.mp4",
+      "publication_id": "18103870520565106",
+      "published_at": "2026-11-03T07:02:50.681105+00:00",
+      "status": "published",
+      "video_id": "d0cd8a82102f0f3db93e1ee6bc5e2e29ca0c5e85a7d436706a4bae148a6f724b"
     }
   },
   "system": {
@@ -337,6 +345,27 @@
       "scheduled_slot": "2026-10-31-slot-1",
       "status": "completed",
       "video_id": "cca6556f8392d8d33a58dc1c48947824885f5666980c28fecd74fd29ecdba6ae"
+    },
+    "d0cd8a82102f0f3db93e1ee6bc5e2e29ca0c5e85a7d436706a4bae148a6f724b": {
+      "attempts": 1,
+      "caption": "Misty morning walks through this lush mountain valley are pure magic. Who would you want to explore this misty trail with? #nature #mountains #foggy #landscape #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18144411139611986",
+      "filename": "Ticino.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-03T07:02:15.216889+00:00",
+      "last_error": null,
+      "publication_id": "18103870520565106",
+      "published_at": "2026-11-03T07:02:50.681105+00:00",
+      "scheduled_at": "2026-10-31T19:00:00-04:00",
+      "scheduled_slot": "2026-10-31-slot-2",
+      "status": "completed",
+      "video_id": "d0cd8a82102f0f3db93e1ee6bc5e2e29ca0c5e85a7d436706a4bae148a6f724b"
     },
     "f06fb4af7fd1e2ad741063f69364a949b42d634c127d0f56029d0699ae5dc869": {
       "attempts": 1,
