@@ -126,6 +126,14 @@
       "published_at": "2026-11-04T00:07:55.384879+00:00",
       "status": "published",
       "video_id": "55d33a19e4d73a5500a28a3c198e30c2d6f90b4c32172100231fe583c26b69ac"
+    },
+    "2026-11-02-slot-1": {
+      "claimed_at": "2026-11-04T20:09:13.500911+00:00",
+      "filename": "Solothurn.mp4",
+      "publication_id": "18041850323839305",
+      "published_at": "2026-11-04T20:10:00.848120+00:00",
+      "status": "published",
+      "video_id": "dd3073057219d2a852c7091f1163bda7e2066d0c0cbec99277477e0bb746b155"
     }
   },
   "system": {
@@ -403,6 +411,27 @@
       "scheduled_slot": "2026-10-31-slot-2",
       "status": "completed",
       "video_id": "d0cd8a82102f0f3db93e1ee6bc5e2e29ca0c5e85a7d436706a4bae148a6f724b"
+    },
+    "dd3073057219d2a852c7091f1163bda7e2066d0c0cbec99277477e0bb746b155": {
+      "attempts": 1,
+      "caption": "Nothing beats the peaceful serenity of the alpine wilderness. #mountains #nature #alps #landscape #wilderness",
+      "caption_generation_succeeded": true,
+      "container_id": "18144593923611986",
+      "filename": "Solothurn.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-04T20:09:13.500911+00:00",
+      "last_error": null,
+      "publication_id": "18041850323839305",
+      "published_at": "2026-11-04T20:10:00.848120+00:00",
+      "scheduled_at": "2026-11-02T11:30:00-05:00",
+      "scheduled_slot": "2026-11-02-slot-1",
+      "status": "completed",
+      "video_id": "dd3073057219d2a852c7091f1163bda7e2066d0c0cbec99277477e0bb746b155"
     },
     "f06fb4af7fd1e2ad741063f69364a949b42d634c127d0f56029d0699ae5dc869": {
       "attempts": 1,
