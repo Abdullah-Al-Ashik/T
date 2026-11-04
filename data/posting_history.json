@@ -118,6 +118,14 @@
       "published_at": "2026-11-03T20:28:43.968113+00:00",
       "status": "published",
       "video_id": "f3496b5bdf088abbd64b1b6420e41ddc6bb3f0006bdf9e961bb6a527f1d74510"
+    },
+    "2026-11-01-slot-2": {
+      "claimed_at": "2026-11-04T00:07:19.477497+00:00",
+      "filename": "Soglio.mp4",
+      "publication_id": "17992747935073507",
+      "published_at": "2026-11-04T00:07:55.384879+00:00",
+      "status": "published",
+      "video_id": "55d33a19e4d73a5500a28a3c198e30c2d6f90b4c32172100231fe583c26b69ac"
     }
   },
   "system": {
@@ -165,6 +173,27 @@
       "scheduled_slot": "2026-10-30-slot-1",
       "status": "completed",
       "video_id": "32ff6f9522e4ee8b99d25c68abf8ca45583e5247851ab072dfa983483fba5c41"
+    },
+    "55d33a19e4d73a5500a28a3c198e30c2d6f90b4c32172100231fe583c26b69ac": {
+      "attempts": 1,
+      "caption": "Nothing beats a peaceful morning view of the Swiss Alps, complete with lush green fields and a cascading waterfall in the distance. #Switzerland #Alps #Nature #Travel #Waterfall",
+      "caption_generation_succeeded": true,
+      "container_id": "18144497614611986",
+      "filename": "Soglio.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-04T00:07:19.477497+00:00",
+      "last_error": null,
+      "publication_id": "17992747935073507",
+      "published_at": "2026-11-04T00:07:55.384879+00:00",
+      "scheduled_at": "2026-11-01T16:30:00-05:00",
+      "scheduled_slot": "2026-11-01-slot-2",
+      "status": "completed",
+      "video_id": "55d33a19e4d73a5500a28a3c198e30c2d6f90b4c32172100231fe583c26b69ac"
     },
     "5c0c76e8969c3659222e24b9c5d59468bcd23fb266011261d5f605b0c29def1f": {
       "attempts": 1,
