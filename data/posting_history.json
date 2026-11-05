@@ -134,6 +134,14 @@
       "published_at": "2026-11-04T20:10:00.848120+00:00",
       "status": "published",
       "video_id": "dd3073057219d2a852c7091f1163bda7e2066d0c0cbec99277477e0bb746b155"
+    },
+    "2026-11-02-slot-2": {
+      "claimed_at": "2026-11-05T03:38:26.390296+00:00",
+      "filename": "Spiez.mp4",
+      "publication_id": "18122420179961276",
+      "published_at": "2026-11-05T03:39:08.428207+00:00",
+      "status": "published",
+      "video_id": "a7047a8c2b80a4afa3ea21533d077d97c67b32357da024e1abb38085f541628b"
     }
   },
   "system": {
@@ -328,6 +336,27 @@
       "scheduled_slot": "2026-10-25-slot-2",
       "status": "completed",
       "video_id": "a1da8d0457c4e74ecb2836268937d0c29bada1cc8d10a07acca40eda51961c57"
+    },
+    "a7047a8c2b80a4afa3ea21533d077d97c67b32357da024e1abb38085f541628b": {
+      "attempts": 1,
+      "caption": "A peaceful lakeside path winding through lush green trees beneath towering mountains. #nature #landscape #travel #lake #mountains",
+      "caption_generation_succeeded": true,
+      "container_id": "18144631894611986",
+      "filename": "Spiez.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-05T03:38:26.390296+00:00",
+      "last_error": null,
+      "publication_id": "18122420179961276",
+      "published_at": "2026-11-05T03:39:08.428207+00:00",
+      "scheduled_at": "2026-11-02T19:30:00-05:00",
+      "scheduled_slot": "2026-11-02-slot-2",
+      "status": "completed",
+      "video_id": "a7047a8c2b80a4afa3ea21533d077d97c67b32357da024e1abb38085f541628b"
     },
     "adb41eedba892a7ca9822e927ff698e9217f9f9b7a7534a274b7efcd16e8001a": {
       "attempts": 1,
