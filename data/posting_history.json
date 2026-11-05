@@ -142,6 +142,14 @@
       "published_at": "2026-11-05T03:39:08.428207+00:00",
       "status": "published",
       "video_id": "a7047a8c2b80a4afa3ea21533d077d97c67b32357da024e1abb38085f541628b"
+    },
+    "2026-11-03-slot-1": {
+      "claimed_at": "2026-11-05T21:42:15.878998+00:00",
+      "filename": "Stanserhorn.mp4",
+      "publication_id": "18240711775316220",
+      "published_at": "2026-11-05T21:43:07.344232+00:00",
+      "status": "published",
+      "video_id": "a271169db4cc77746a2e8acbe9b8cfddf6af3b3ba6380711627c4cb1543b82a7"
     }
   },
   "system": {
@@ -336,6 +344,27 @@
       "scheduled_slot": "2026-10-25-slot-2",
       "status": "completed",
       "video_id": "a1da8d0457c4e74ecb2836268937d0c29bada1cc8d10a07acca40eda51961c57"
+    },
+    "a271169db4cc77746a2e8acbe9b8cfddf6af3b3ba6380711627c4cb1543b82a7": {
+      "attempts": 1,
+      "caption": "Crisp mountain water flowing from a rustic wooden fountain against a backdrop of snow-capped peaks, transitioning to a serene alpine village stream. #mountains #alpine #nature #switzerland #stream",
+      "caption_generation_succeeded": true,
+      "container_id": "18144717805611986",
+      "filename": "Stanserhorn.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-05T21:42:15.878998+00:00",
+      "last_error": null,
+      "publication_id": "18240711775316220",
+      "published_at": "2026-11-05T21:43:07.344232+00:00",
+      "scheduled_at": "2026-11-03T09:00:00-05:00",
+      "scheduled_slot": "2026-11-03-slot-1",
+      "status": "completed",
+      "video_id": "a271169db4cc77746a2e8acbe9b8cfddf6af3b3ba6380711627c4cb1543b82a7"
     },
     "a7047a8c2b80a4afa3ea21533d077d97c67b32357da024e1abb38085f541628b": {
       "attempts": 1,
