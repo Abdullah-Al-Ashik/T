@@ -150,6 +150,14 @@
       "published_at": "2026-11-05T21:43:07.344232+00:00",
       "status": "published",
       "video_id": "a271169db4cc77746a2e8acbe9b8cfddf6af3b3ba6380711627c4cb1543b82a7"
+    },
+    "2026-11-03-slot-2": {
+      "claimed_at": "2026-11-06T01:04:25.738154+00:00",
+      "filename": "Titlis.mp4",
+      "publication_id": "18184691368438244",
+      "published_at": "2026-11-06T01:05:07.394997+00:00",
+      "status": "published",
+      "video_id": "61614d6195002e9ba146236156aefbfecb2a8d739d6c5ba82a84a6659b799a70"
     }
   },
   "system": {
@@ -239,6 +247,27 @@
       "scheduled_slot": "2026-10-27-slot-1",
       "status": "completed",
       "video_id": "5c0c76e8969c3659222e24b9c5d59468bcd23fb266011261d5f605b0c29def1f"
+    },
+    "61614d6195002e9ba146236156aefbfecb2a8d739d6c5ba82a84a6659b799a70": {
+      "attempts": 1,
+      "caption": "A cute little calf explores a lush green mountain pasture with stunning lake and snow-capped mountain views in the background. #nature #mountains #lake #cute #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18144731926611986",
+      "filename": "Titlis.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-06T01:04:25.738154+00:00",
+      "last_error": null,
+      "publication_id": "18184691368438244",
+      "published_at": "2026-11-06T01:05:07.394997+00:00",
+      "scheduled_at": "2026-11-03T14:30:00-05:00",
+      "scheduled_slot": "2026-11-03-slot-2",
+      "status": "completed",
+      "video_id": "61614d6195002e9ba146236156aefbfecb2a8d739d6c5ba82a84a6659b799a70"
     },
     "64a1bdebcfe60a2a572306c0481fdb5dff56e0273c5ee139d49ac6d8c55e43eb": {
       "attempts": 1,
