@@ -166,6 +166,14 @@
       "published_at": "2026-11-06T20:31:42.555795+00:00",
       "status": "published",
       "video_id": "9403d03137b7805d01298ab36cc0765cce115e3e8bd8786d2546db0b4381700f"
+    },
+    "2026-11-04-slot-2": {
+      "claimed_at": "2026-11-07T01:20:25.686715+00:00",
+      "filename": "Pilatus.mp4",
+      "publication_id": "18095286902183036",
+      "published_at": "2026-11-07T01:21:08.541164+00:00",
+      "status": "published",
+      "video_id": "713fbf03871d9c86b9a5874940a331fde6b7569323c60747a696a4a9192ba66e"
     }
   },
   "system": {
@@ -297,6 +305,27 @@
       "scheduled_slot": "2026-10-26-slot-2",
       "status": "completed",
       "video_id": "64a1bdebcfe60a2a572306c0481fdb5dff56e0273c5ee139d49ac6d8c55e43eb"
+    },
+    "713fbf03871d9c86b9a5874940a331fde6b7569323c60747a696a4a9192ba66e": {
+      "attempts": 1,
+      "caption": "Crystal-clear turquoise water framed by lush green trees and mountain views. Have you ever visited a lake this transparent? #lake #nature #travel #scenery #mountains",
+      "caption_generation_succeeded": true,
+      "container_id": "18144851071611986",
+      "filename": "Pilatus.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-07T01:20:25.686715+00:00",
+      "last_error": null,
+      "publication_id": "18095286902183036",
+      "published_at": "2026-11-07T01:21:08.541164+00:00",
+      "scheduled_at": "2026-11-04T18:30:00-05:00",
+      "scheduled_slot": "2026-11-04-slot-2",
+      "status": "completed",
+      "video_id": "713fbf03871d9c86b9a5874940a331fde6b7569323c60747a696a4a9192ba66e"
     },
     "79b51f8edf817e88aa3f5aa03e2d44d9acc4af6e6c35f817a82292634adccdf8": {
       "attempts": 1,
