@@ -182,6 +182,14 @@
       "published_at": "2026-11-07T19:12:38.430914+00:00",
       "status": "published",
       "video_id": "c9a58523a7932918b49eff34f688c2bd1e6ca60a3802968e308ac1a96305aad6"
+    },
+    "2026-11-05-slot-2": {
+      "claimed_at": "2026-11-08T04:55:46.263601+00:00",
+      "filename": "Rapperswil.mp4",
+      "publication_id": "17994292847855724",
+      "published_at": "2026-11-08T04:56:18.780537+00:00",
+      "status": "published",
+      "video_id": "8c991ff5ffa310a5e91222ee60fac029059111a464e21864ec8678584cf3d406"
     }
   },
   "system": {
@@ -376,6 +384,27 @@
       "scheduled_slot": "2026-10-30-slot-2",
       "status": "completed",
       "video_id": "82aaebed82c348407459efb665ccea58d9ad6bd2fe7a7336c1b9e19668f3f276"
+    },
+    "8c991ff5ffa310a5e91222ee60fac029059111a464e21864ec8678584cf3d406": {
+      "attempts": 1,
+      "caption": "A wooden water trough flows against a backdrop of green alpine meadows and snow-capped mountains under a bright blue sky. #alps #mountains #nature #landscape #switzerland",
+      "caption_generation_succeeded": true,
+      "container_id": "18145001809611986",
+      "filename": "Rapperswil.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-08T04:55:46.263601+00:00",
+      "last_error": null,
+      "publication_id": "17994292847855724",
+      "published_at": "2026-11-08T04:56:18.780537+00:00",
+      "scheduled_at": "2026-11-05T15:30:00-05:00",
+      "scheduled_slot": "2026-11-05-slot-2",
+      "status": "completed",
+      "video_id": "8c991ff5ffa310a5e91222ee60fac029059111a464e21864ec8678584cf3d406"
     },
     "9403d03137b7805d01298ab36cc0765cce115e3e8bd8786d2546db0b4381700f": {
       "attempts": 1,
