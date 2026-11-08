@@ -190,6 +190,14 @@
       "published_at": "2026-11-08T04:56:18.780537+00:00",
       "status": "published",
       "video_id": "8c991ff5ffa310a5e91222ee60fac029059111a464e21864ec8678584cf3d406"
+    },
+    "2026-11-06-slot-1": {
+      "claimed_at": "2026-11-08T18:57:48.436186+00:00",
+      "filename": "Reichenbach.mp4",
+      "publication_id": "18191370784365178",
+      "published_at": "2026-11-08T18:58:45.161222+00:00",
+      "status": "published",
+      "video_id": "c2b704046ad4a8d0a549958854e12fecb499e69e16e891a812ddbbb617a62214"
     }
   },
   "system": {
@@ -531,6 +539,26 @@
       "scheduled_slot": "2026-10-27-slot-2",
       "status": "completed",
       "video_id": "adb41eedba892a7ca9822e927ff698e9217f9f9b7a7534a274b7efcd16e8001a"
+    },
+    "c2b704046ad4a8d0a549958854e12fecb499e69e16e891a812ddbbb617a62214": {
+      "attempts": 1,
+      "caption": "Nothing beats the serene view of vibrant turquoise alpine waters surrounded by endless pine forests. #nature #landscape #forest #lake #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18145085098611986",
+      "filename": "Reichenbach.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33
+      ],
+      "last_attempt_at": "2026-11-08T18:57:48.436186+00:00",
+      "last_error": null,
+      "publication_id": "18191370784365178",
+      "published_at": "2026-11-08T18:58:45.161222+00:00",
+      "scheduled_at": "2026-11-06T08:30:00-05:00",
+      "scheduled_slot": "2026-11-06-slot-1",
+      "status": "completed",
+      "video_id": "c2b704046ad4a8d0a549958854e12fecb499e69e16e891a812ddbbb617a62214"
     },
     "c7b226b1e0c66c1411c6d96bfe1f1c2d1268dcc60551f28059e7745815282999": {
       "attempts": 1,
