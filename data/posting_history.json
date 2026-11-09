@@ -198,6 +198,14 @@
       "published_at": "2026-11-08T18:58:45.161222+00:00",
       "status": "published",
       "video_id": "c2b704046ad4a8d0a549958854e12fecb499e69e16e891a812ddbbb617a62214"
+    },
+    "2026-11-06-slot-2": {
+      "claimed_at": "2026-11-09T01:10:03.079251+00:00",
+      "filename": "RhineFalls.mp4",
+      "publication_id": "18060872231590724",
+      "published_at": "2026-11-09T01:10:46.007386+00:00",
+      "status": "published",
+      "video_id": "2e9f701a05f994261c126f5825f8abf9b57fa5e938e2cc7ac17c19a4ab2a88e9"
     }
   },
   "system": {
@@ -224,6 +232,27 @@
       "scheduled_slot": "2026-10-28-slot-2",
       "status": "completed",
       "video_id": "2b8ec9c2844dbd5fe28006acbfc169ce5b6fb6545a7afcc71db1cdca0bbcbc31"
+    },
+    "2e9f701a05f994261c126f5825f8abf9b57fa5e938e2cc7ac17c19a4ab2a88e9": {
+      "attempts": 1,
+      "caption": "A scenic path leads through a lush green valley in Lauterbrunnen, Switzerland, showcasing a towering waterfall cascading down steep cliffs next to snow-capped mountains. #lauterbrunnen #switzerland #waterfall #alps #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18145109011611986",
+      "filename": "RhineFalls.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-09T01:10:03.079251+00:00",
+      "last_error": null,
+      "publication_id": "18060872231590724",
+      "published_at": "2026-11-09T01:10:46.007386+00:00",
+      "scheduled_at": "2026-11-06T17:00:00-05:00",
+      "scheduled_slot": "2026-11-06-slot-2",
+      "status": "completed",
+      "video_id": "2e9f701a05f994261c126f5825f8abf9b57fa5e938e2cc7ac17c19a4ab2a88e9"
     },
     "32ff6f9522e4ee8b99d25c68abf8ca45583e5247851ab072dfa983483fba5c41": {
       "attempts": 1,
