@@ -214,6 +214,14 @@
       "published_at": "2026-11-10T00:21:09.999360+00:00",
       "status": "published",
       "video_id": "1a65819b7df196229a1c8d8e669d7d51402fa7dc3fa893326a19da3e670e8665"
+    },
+    "2026-11-07-slot-2": {
+      "claimed_at": "2026-11-10T07:33:17.528671+00:00",
+      "filename": "Saas-Fee.mp4",
+      "publication_id": "18601305802071872",
+      "published_at": "2026-11-10T07:34:03.464129+00:00",
+      "status": "published",
+      "video_id": "7a3c796642b90f6c47616064e87c1c4bced2b0bcd3ebb5c2a9e30810a49d0773"
     }
   },
   "system": {
@@ -429,6 +437,27 @@
       "scheduled_slot": "2026-10-29-slot-2",
       "status": "completed",
       "video_id": "79b51f8edf817e88aa3f5aa03e2d44d9acc4af6e6c35f817a82292634adccdf8"
+    },
+    "7a3c796642b90f6c47616064e87c1c4bced2b0bcd3ebb5c2a9e30810a49d0773": {
+      "attempts": 1,
+      "caption": "Nothing beats the peaceful rhythm of alpine valleys, fresh mountain streams, and friendly local goats. Which view is your favorite? #Alps #MountainLife #NatureLovers #TravelInspiration",
+      "caption_generation_succeeded": true,
+      "container_id": "18145243210611986",
+      "filename": "Saas-Fee.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-10T07:33:17.528671+00:00",
+      "last_error": null,
+      "publication_id": "18601305802071872",
+      "published_at": "2026-11-10T07:34:03.464129+00:00",
+      "scheduled_at": "2026-11-07T19:00:00-05:00",
+      "scheduled_slot": "2026-11-07-slot-2",
+      "status": "completed",
+      "video_id": "7a3c796642b90f6c47616064e87c1c4bced2b0bcd3ebb5c2a9e30810a49d0773"
     },
     "82aaebed82c348407459efb665ccea58d9ad6bd2fe7a7336c1b9e19668f3f276": {
       "attempts": 1,
