@@ -222,6 +222,14 @@
       "published_at": "2026-11-10T07:34:03.464129+00:00",
       "status": "published",
       "video_id": "7a3c796642b90f6c47616064e87c1c4bced2b0bcd3ebb5c2a9e30810a49d0773"
+    },
+    "2026-11-08-slot-1": {
+      "claimed_at": "2026-11-10T20:45:04.428832+00:00",
+      "filename": "SanBernardino.mp4",
+      "publication_id": "18136930921663597",
+      "published_at": "2026-11-10T20:46:11.089581+00:00",
+      "status": "published",
+      "video_id": "890a3c01adc5d2c960b19e1927cb2d1a846376e591a6baae7c481806e0122dd9"
     }
   },
   "system": {
@@ -479,6 +487,27 @@
       "scheduled_slot": "2026-10-30-slot-2",
       "status": "completed",
       "video_id": "82aaebed82c348407459efb665ccea58d9ad6bd2fe7a7336c1b9e19668f3f276"
+    },
+    "890a3c01adc5d2c960b19e1927cb2d1a846376e591a6baae7c481806e0122dd9": {
+      "attempts": 1,
+      "caption": "Waking up to this breathtaking alpine view never gets old. Would you want to enjoy your morning coffee here? #mountains #alps #morningview #travel #nature",
+      "caption_generation_succeeded": true,
+      "container_id": "18145317565611986",
+      "filename": "SanBernardino.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-10T20:45:04.428832+00:00",
+      "last_error": null,
+      "publication_id": "18136930921663597",
+      "published_at": "2026-11-10T20:46:11.089581+00:00",
+      "scheduled_at": "2026-11-08T09:30:00-05:00",
+      "scheduled_slot": "2026-11-08-slot-1",
+      "status": "completed",
+      "video_id": "890a3c01adc5d2c960b19e1927cb2d1a846376e591a6baae7c481806e0122dd9"
     },
     "8c991ff5ffa310a5e91222ee60fac029059111a464e21864ec8678584cf3d406": {
       "attempts": 1,
