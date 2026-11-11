@@ -230,6 +230,14 @@
       "published_at": "2026-11-10T20:46:11.089581+00:00",
       "status": "published",
       "video_id": "890a3c01adc5d2c960b19e1927cb2d1a846376e591a6baae7c481806e0122dd9"
+    },
+    "2026-11-08-slot-2": {
+      "claimed_at": "2026-11-11T00:11:33.732292+00:00",
+      "filename": "Schaffhausen.mp4",
+      "publication_id": "17942277213391486",
+      "published_at": "2026-11-11T00:12:14.632989+00:00",
+      "status": "published",
+      "video_id": "b60318956a59b006e60c0b4e1acf32a770d9ef32a922ace12df07c94c3279dad"
     }
   },
   "system": {
@@ -655,6 +663,27 @@
       "scheduled_slot": "2026-10-27-slot-2",
       "status": "completed",
       "video_id": "adb41eedba892a7ca9822e927ff698e9217f9f9b7a7534a274b7efcd16e8001a"
+    },
+    "b60318956a59b006e60c0b4e1acf32a770d9ef32a922ace12df07c94c3279dad": {
+      "attempts": 1,
+      "caption": "Nothing beats a scenic drive through the mountains after the rain. #nature #waterfall #roadtrip #mountains #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18145336207611986",
+      "filename": "Schaffhausen.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-11T00:11:33.732292+00:00",
+      "last_error": null,
+      "publication_id": "17942277213391486",
+      "published_at": "2026-11-11T00:12:14.632989+00:00",
+      "scheduled_at": "2026-11-08T16:30:00-05:00",
+      "scheduled_slot": "2026-11-08-slot-2",
+      "status": "completed",
+      "video_id": "b60318956a59b006e60c0b4e1acf32a770d9ef32a922ace12df07c94c3279dad"
     },
     "c2b704046ad4a8d0a549958854e12fecb499e69e16e891a812ddbbb617a62214": {
       "attempts": 1,
