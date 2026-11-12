@@ -246,6 +246,14 @@
       "published_at": "2026-11-11T19:55:55.949860+00:00",
       "status": "published",
       "video_id": "ad9474dd5fe2fa4b6d828a1cab47c0aabbeaa23ba5d4471866ab1c03fd64459b"
+    },
+    "2026-11-09-slot-2": {
+      "claimed_at": "2026-11-12T04:02:12.420545+00:00",
+      "filename": "Zurich.mp4",
+      "publication_id": "18120606523777727",
+      "published_at": "2026-11-12T04:02:55.635782+00:00",
+      "status": "published",
+      "video_id": "85deeac4a8f779380de2fc66734d95cf970cbeb503116f86e61d0ae1672de8a3"
     }
   },
   "system": {
@@ -503,6 +511,27 @@
       "scheduled_slot": "2026-10-30-slot-2",
       "status": "completed",
       "video_id": "82aaebed82c348407459efb665ccea58d9ad6bd2fe7a7336c1b9e19668f3f276"
+    },
+    "85deeac4a8f779380de2fc66734d95cf970cbeb503116f86e61d0ae1672de8a3": {
+      "attempts": 1,
+      "caption": "Nothing beats a peaceful stroll beside rushing alpine waters framed by snow-capped peaks. Who would you explore this charming town with? #Alps #MountainTown #TravelDestination #ScenicViews #NatureLovers",
+      "caption_generation_succeeded": true,
+      "container_id": "18145473238611986",
+      "filename": "Zurich.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-12T04:02:12.420545+00:00",
+      "last_error": null,
+      "publication_id": "18120606523777727",
+      "published_at": "2026-11-12T04:02:55.635782+00:00",
+      "scheduled_at": "2026-11-09T19:30:00-05:00",
+      "scheduled_slot": "2026-11-09-slot-2",
+      "status": "completed",
+      "video_id": "85deeac4a8f779380de2fc66734d95cf970cbeb503116f86e61d0ae1672de8a3"
     },
     "890a3c01adc5d2c960b19e1927cb2d1a846376e591a6baae7c481806e0122dd9": {
       "attempts": 1,
