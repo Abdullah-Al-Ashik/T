@@ -254,6 +254,14 @@
       "published_at": "2026-11-12T04:02:55.635782+00:00",
       "status": "published",
       "video_id": "85deeac4a8f779380de2fc66734d95cf970cbeb503116f86e61d0ae1672de8a3"
+    },
+    "2026-11-10-slot-1": {
+      "claimed_at": "2026-11-15T05:18:57.141400+00:00",
+      "filename": "Montreux.mp4",
+      "publication_id": "18120971216325802",
+      "published_at": "2026-11-15T05:19:30.603799+00:00",
+      "status": "published",
+      "video_id": "85c8ec88fd59f5952e925eae323c27f9cd2fa842a8a74b749a2eca045a94db19"
     }
   },
   "system": {
@@ -511,6 +519,27 @@
       "scheduled_slot": "2026-10-30-slot-2",
       "status": "completed",
       "video_id": "82aaebed82c348407459efb665ccea58d9ad6bd2fe7a7336c1b9e19668f3f276"
+    },
+    "85c8ec88fd59f5952e925eae323c27f9cd2fa842a8a74b749a2eca045a94db19": {
+      "attempts": 1,
+      "caption": "Exploring breathtaking alpine landscapes, crystal-clear glacial lakes, and hidden mountain villages tucked away in nature. #mountains #alps #nature #travel #landscape",
+      "caption_generation_succeeded": true,
+      "container_id": "18145830808611986",
+      "filename": "Montreux.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-15T05:18:57.141400+00:00",
+      "last_error": null,
+      "publication_id": "18120971216325802",
+      "published_at": "2026-11-15T05:19:30.603799+00:00",
+      "scheduled_at": "2026-11-10T09:00:00-05:00",
+      "scheduled_slot": "2026-11-10-slot-1",
+      "status": "completed",
+      "video_id": "85c8ec88fd59f5952e925eae323c27f9cd2fa842a8a74b749a2eca045a94db19"
     },
     "85deeac4a8f779380de2fc66734d95cf970cbeb503116f86e61d0ae1672de8a3": {
       "attempts": 1,
