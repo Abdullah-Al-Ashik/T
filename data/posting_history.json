@@ -262,6 +262,14 @@
       "published_at": "2026-11-15T05:19:30.603799+00:00",
       "status": "published",
       "video_id": "85c8ec88fd59f5952e925eae323c27f9cd2fa842a8a74b749a2eca045a94db19"
+    },
+    "2026-11-10-slot-2": {
+      "claimed_at": "2026-11-15T19:54:46.260920+00:00",
+      "filename": "Murren.mp4",
+      "publication_id": "18190821655415998",
+      "published_at": "2026-11-15T19:55:29.195670+00:00",
+      "status": "published",
+      "video_id": "b206bdd38f53c3fbe9a561737cc257f6be1c3d9d9c72dfbf7d1e4f085f741952"
     }
   },
   "system": {
@@ -749,6 +757,27 @@
       "scheduled_slot": "2026-10-27-slot-2",
       "status": "completed",
       "video_id": "adb41eedba892a7ca9822e927ff698e9217f9f9b7a7534a274b7efcd16e8001a"
+    },
+    "b206bdd38f53c3fbe9a561737cc257f6be1c3d9d9c72dfbf7d1e4f085f741952": {
+      "attempts": 1,
+      "caption": "A scenic road winds down toward a picturesque alpine village nestled beneath towering green mountains and a brilliant sunset sky. #mountains #village #sunset #travel #nature",
+      "caption_generation_succeeded": true,
+      "container_id": "18145916326611986",
+      "filename": "Murren.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-15T19:54:46.260920+00:00",
+      "last_error": null,
+      "publication_id": "18190821655415998",
+      "published_at": "2026-11-15T19:55:29.195670+00:00",
+      "scheduled_at": "2026-11-10T14:30:00-05:00",
+      "scheduled_slot": "2026-11-10-slot-2",
+      "status": "completed",
+      "video_id": "b206bdd38f53c3fbe9a561737cc257f6be1c3d9d9c72dfbf7d1e4f085f741952"
     },
     "b60318956a59b006e60c0b4e1acf32a770d9ef32a922ace12df07c94c3279dad": {
       "attempts": 1,
