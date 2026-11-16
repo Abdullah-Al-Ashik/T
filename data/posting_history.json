@@ -270,6 +270,14 @@
       "published_at": "2026-11-15T19:55:29.195670+00:00",
       "status": "published",
       "video_id": "b206bdd38f53c3fbe9a561737cc257f6be1c3d9d9c72dfbf7d1e4f085f741952"
+    },
+    "2026-11-11-slot-1": {
+      "claimed_at": "2026-11-16T01:21:05.704341+00:00",
+      "filename": "Neuchatel.mp4",
+      "publication_id": "18101112467398848",
+      "published_at": "2026-11-16T01:21:41.378494+00:00",
+      "status": "published",
+      "video_id": "474b9b8d4926c9dbd4641efcf5b2d42d7edce5ceb2957685c0e5096d0a5a18e3"
     }
   },
   "system": {
@@ -359,6 +367,27 @@
       "scheduled_slot": "2026-10-30-slot-1",
       "status": "completed",
       "video_id": "32ff6f9522e4ee8b99d25c68abf8ca45583e5247851ab072dfa983483fba5c41"
+    },
+    "474b9b8d4926c9dbd4641efcf5b2d42d7edce5ceb2957685c0e5096d0a5a18e3": {
+      "attempts": 1,
+      "caption": "Wandering through the charming alpine streets overlooking the crystal-clear lake. #switzerland #alps #travel #lake #nature",
+      "caption_generation_succeeded": true,
+      "container_id": "18145936675611986",
+      "filename": "Neuchatel.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-16T01:21:05.704341+00:00",
+      "last_error": null,
+      "publication_id": "18101112467398848",
+      "published_at": "2026-11-16T01:21:41.378494+00:00",
+      "scheduled_at": "2026-11-11T08:00:00-05:00",
+      "scheduled_slot": "2026-11-11-slot-1",
+      "status": "completed",
+      "video_id": "474b9b8d4926c9dbd4641efcf5b2d42d7edce5ceb2957685c0e5096d0a5a18e3"
     },
     "55d33a19e4d73a5500a28a3c198e30c2d6f90b4c32172100231fe583c26b69ac": {
       "attempts": 1,
