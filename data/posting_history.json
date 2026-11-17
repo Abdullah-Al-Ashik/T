@@ -278,12 +278,41 @@
       "published_at": "2026-11-16T01:21:41.378494+00:00",
       "status": "published",
       "video_id": "474b9b8d4926c9dbd4641efcf5b2d42d7edce5ceb2957685c0e5096d0a5a18e3"
+    },
+    "2026-11-11-slot-2": {
+      "claimed_at": "2026-11-17T00:21:40.842378+00:00",
+      "filename": "Oberalp.mp4",
+      "publication_id": "17958133470291936",
+      "published_at": "2026-11-17T00:22:17.381788+00:00",
+      "status": "published",
+      "video_id": "0a1459c7ba8b16c3d53d6667b69cba309396a46d3a8617cddfc681a01fe8ad49"
     }
   },
   "system": {
     "schedule_initialized_at": "2026-10-25"
   },
   "videos": {
+    "0a1459c7ba8b16c3d53d6667b69cba309396a46d3a8617cddfc681a01fe8ad49": {
+      "attempts": 1,
+      "caption": "A peaceful alpine village nestled beside a pristine lake and towering mountains. Would you wake up to this view every morning? #alpinevillage #mountainview #lakelife #travelswitzerland",
+      "caption_generation_succeeded": true,
+      "container_id": "18146056609611986",
+      "filename": "Oberalp.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-17T00:21:40.842378+00:00",
+      "last_error": null,
+      "publication_id": "17958133470291936",
+      "published_at": "2026-11-17T00:22:17.381788+00:00",
+      "scheduled_at": "2026-11-11T18:30:00-05:00",
+      "scheduled_slot": "2026-11-11-slot-2",
+      "status": "completed",
+      "video_id": "0a1459c7ba8b16c3d53d6667b69cba309396a46d3a8617cddfc681a01fe8ad49"
+    },
     "1a65819b7df196229a1c8d8e669d7d51402fa7dc3fa893326a19da3e670e8665": {
       "attempts": 1,
       "caption": "Nothing beats waking up to crisp mountain air, roaring waterfalls, and vibrant green valleys. Which of these views would you rather call home for the weekend? #mountains #waterfall #nature #travel #landscape",
