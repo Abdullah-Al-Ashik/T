@@ -286,6 +286,14 @@
       "published_at": "2026-11-17T00:22:17.381788+00:00",
       "status": "published",
       "video_id": "0a1459c7ba8b16c3d53d6667b69cba309396a46d3a8617cddfc681a01fe8ad49"
+    },
+    "2026-11-12-slot-1": {
+      "claimed_at": "2026-11-18T01:57:53.705107+00:00",
+      "filename": "Bern.mp4",
+      "publication_id": "18377941282208249",
+      "published_at": "2026-11-18T01:58:28.311558+00:00",
+      "status": "published",
+      "video_id": "bdf54f128819e4f5d1dc94d900a1cc4e5009f747b8e9c7f976f8645386077df0"
     }
   },
   "system": {
@@ -857,6 +865,27 @@
       "scheduled_slot": "2026-11-08-slot-2",
       "status": "completed",
       "video_id": "b60318956a59b006e60c0b4e1acf32a770d9ef32a922ace12df07c94c3279dad"
+    },
+    "bdf54f128819e4f5d1dc94d900a1cc4e5009f747b8e9c7f976f8645386077df0": {
+      "attempts": 1,
+      "caption": "A peaceful lakeside pathway shaded by lush green trees, overlooking calm emerald waters and rolling grassy hills. #nature #lake #scenery #travel #green",
+      "caption_generation_succeeded": true,
+      "container_id": "18146168650611986",
+      "filename": "Bern.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-18T01:57:53.705107+00:00",
+      "last_error": null,
+      "publication_id": "18377941282208249",
+      "published_at": "2026-11-18T01:58:28.311558+00:00",
+      "scheduled_at": "2026-11-12T11:00:00-05:00",
+      "scheduled_slot": "2026-11-12-slot-1",
+      "status": "completed",
+      "video_id": "bdf54f128819e4f5d1dc94d900a1cc4e5009f747b8e9c7f976f8645386077df0"
     },
     "c2b704046ad4a8d0a549958854e12fecb499e69e16e891a812ddbbb617a62214": {
       "attempts": 1,
