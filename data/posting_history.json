@@ -294,6 +294,14 @@
       "published_at": "2026-11-18T01:58:28.311558+00:00",
       "status": "published",
       "video_id": "bdf54f128819e4f5d1dc94d900a1cc4e5009f747b8e9c7f976f8645386077df0"
+    },
+    "2026-11-12-slot-2": {
+      "claimed_at": "2026-11-18T20:58:04.485913+00:00",
+      "filename": "BerninaExpress.mp4",
+      "publication_id": "17918801508490567",
+      "published_at": "2026-11-18T20:58:40.694875+00:00",
+      "status": "published",
+      "video_id": "8093f6fc4e55bfe6f2ffbb792a69637403ab7ebff64a32ad82913b1f3014e37b"
     }
   },
   "system": {
@@ -572,6 +580,27 @@
       "scheduled_slot": "2026-11-07-slot-2",
       "status": "completed",
       "video_id": "7a3c796642b90f6c47616064e87c1c4bced2b0bcd3ebb5c2a9e30810a49d0773"
+    },
+    "8093f6fc4e55bfe6f2ffbb792a69637403ab7ebff64a32ad82913b1f3014e37b": {
+      "attempts": 1,
+      "caption": "Nestled in a lush green valley beneath towering cliffs and cascading waterfalls, this tranquil mountain village feels straight out of a storybook. #nature #mountains #waterfall #travel #village",
+      "caption_generation_succeeded": true,
+      "container_id": "18146243500611986",
+      "filename": "BerninaExpress.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-18T20:58:04.485913+00:00",
+      "last_error": null,
+      "publication_id": "17918801508490567",
+      "published_at": "2026-11-18T20:58:40.694875+00:00",
+      "scheduled_at": "2026-11-12T15:30:00-05:00",
+      "scheduled_slot": "2026-11-12-slot-2",
+      "status": "completed",
+      "video_id": "8093f6fc4e55bfe6f2ffbb792a69637403ab7ebff64a32ad82913b1f3014e37b"
     },
     "82aaebed82c348407459efb665ccea58d9ad6bd2fe7a7336c1b9e19668f3f276": {
       "attempts": 1,
