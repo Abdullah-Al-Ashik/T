@@ -310,6 +310,14 @@
       "published_at": "2026-11-19T04:25:01.779687+00:00",
       "status": "published",
       "video_id": "3ca1354ac953bd1ca6a0a83c78029d385952143afccd5fc1376f52fa896183a1"
+    },
+    "2026-11-13-slot-2": {
+      "claimed_at": "2026-11-19T22:50:06.371391+00:00",
+      "filename": "Blausee.mp4",
+      "publication_id": "18100619492408781",
+      "published_at": "2026-11-19T22:50:45.155103+00:00",
+      "status": "published",
+      "video_id": "4afe8212d3bd21d6af652f55a21152b8da6cb0a423467a36351541d3d874b177"
     }
   },
   "system": {
@@ -462,6 +470,27 @@
       "scheduled_slot": "2026-11-11-slot-1",
       "status": "completed",
       "video_id": "474b9b8d4926c9dbd4641efcf5b2d42d7edce5ceb2957685c0e5096d0a5a18e3"
+    },
+    "4afe8212d3bd21d6af652f55a21152b8da6cb0a423467a36351541d3d874b177": {
+      "attempts": 1,
+      "caption": "Nothing beats waking up to Swiss alpine views, rushing waterfalls, and crystal-clear lakes. #Switzerland #Alps #Travel #Nature #Waterfall",
+      "caption_generation_succeeded": true,
+      "container_id": "18146342188611986",
+      "filename": "Blausee.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-19T22:50:06.371391+00:00",
+      "last_error": null,
+      "publication_id": "18100619492408781",
+      "published_at": "2026-11-19T22:50:45.155103+00:00",
+      "scheduled_at": "2026-11-13T17:00:00-05:00",
+      "scheduled_slot": "2026-11-13-slot-2",
+      "status": "completed",
+      "video_id": "4afe8212d3bd21d6af652f55a21152b8da6cb0a423467a36351541d3d874b177"
     },
     "55d33a19e4d73a5500a28a3c198e30c2d6f90b4c32172100231fe583c26b69ac": {
       "attempts": 1,
