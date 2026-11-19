@@ -302,6 +302,14 @@
       "published_at": "2026-11-18T20:58:40.694875+00:00",
       "status": "published",
       "video_id": "8093f6fc4e55bfe6f2ffbb792a69637403ab7ebff64a32ad82913b1f3014e37b"
+    },
+    "2026-11-13-slot-1": {
+      "claimed_at": "2026-11-19T04:24:27.991449+00:00",
+      "filename": "Biel.mp4",
+      "publication_id": "17935480449421570",
+      "published_at": "2026-11-19T04:25:01.779687+00:00",
+      "status": "published",
+      "video_id": "3ca1354ac953bd1ca6a0a83c78029d385952143afccd5fc1376f52fa896183a1"
     }
   },
   "system": {
@@ -412,6 +420,27 @@
       "scheduled_slot": "2026-10-30-slot-1",
       "status": "completed",
       "video_id": "32ff6f9522e4ee8b99d25c68abf8ca45583e5247851ab072dfa983483fba5c41"
+    },
+    "3ca1354ac953bd1ca6a0a83c78029d385952143afccd5fc1376f52fa896183a1": {
+      "attempts": 1,
+      "caption": "Waking up to this breathtaking alpine view. Would you stay in this remote mountain cabin? #mountains #cabinlife #nature #alps #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18146267860611986",
+      "filename": "Biel.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-19T04:24:27.991449+00:00",
+      "last_error": null,
+      "publication_id": "17935480449421570",
+      "published_at": "2026-11-19T04:25:01.779687+00:00",
+      "scheduled_at": "2026-11-13T08:30:00-05:00",
+      "scheduled_slot": "2026-11-13-slot-1",
+      "status": "completed",
+      "video_id": "3ca1354ac953bd1ca6a0a83c78029d385952143afccd5fc1376f52fa896183a1"
     },
     "474b9b8d4926c9dbd4641efcf5b2d42d7edce5ceb2957685c0e5096d0a5a18e3": {
       "attempts": 1,
