@@ -326,6 +326,14 @@
       "published_at": "2026-11-20T01:52:22.584511+00:00",
       "status": "published",
       "video_id": "9f57895bcf2049f83c1f0adc7e0cbcd8f269ba96a84cd67179443a9dd890e753"
+    },
+    "2026-11-14-slot-2": {
+      "claimed_at": "2026-11-20T21:23:22.836731+00:00",
+      "filename": "BrienzRothorn.mp4",
+      "publication_id": "18103587710635646",
+      "published_at": "2026-11-20T21:23:57.894223+00:00",
+      "status": "published",
+      "video_id": "a9e45e6bb9c871b38efab835f20607bbf93acb355e7c0d8c2abcbd669c81006a"
     }
   },
   "system": {
@@ -898,6 +906,27 @@
       "scheduled_slot": "2026-11-02-slot-2",
       "status": "completed",
       "video_id": "a7047a8c2b80a4afa3ea21533d077d97c67b32357da024e1abb38085f541628b"
+    },
+    "a9e45e6bb9c871b38efab835f20607bbf93acb355e7c0d8c2abcbd669c81006a": {
+      "attempts": 1,
+      "caption": "A crystal-clear alpine stream rushing past green meadows beneath majestic snow-dusted peaks. #nature #mountains #landscape #river #alps",
+      "caption_generation_succeeded": true,
+      "container_id": "18146434498611986",
+      "filename": "BrienzRothorn.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-20T21:23:22.836731+00:00",
+      "last_error": null,
+      "publication_id": "18103587710635646",
+      "published_at": "2026-11-20T21:23:57.894223+00:00",
+      "scheduled_at": "2026-11-14T19:00:00-05:00",
+      "scheduled_slot": "2026-11-14-slot-2",
+      "status": "completed",
+      "video_id": "a9e45e6bb9c871b38efab835f20607bbf93acb355e7c0d8c2abcbd669c81006a"
     },
     "ad9474dd5fe2fa4b6d828a1cab47c0aabbeaa23ba5d4471866ab1c03fd64459b": {
       "attempts": 1,
