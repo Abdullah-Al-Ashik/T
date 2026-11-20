@@ -318,6 +318,14 @@
       "published_at": "2026-11-19T22:50:45.155103+00:00",
       "status": "published",
       "video_id": "4afe8212d3bd21d6af652f55a21152b8da6cb0a423467a36351541d3d874b177"
+    },
+    "2026-11-14-slot-1": {
+      "claimed_at": "2026-11-20T01:51:27.989134+00:00",
+      "filename": "Brienz.mp4",
+      "publication_id": "18018952853971984",
+      "published_at": "2026-11-20T01:52:22.584511+00:00",
+      "status": "published",
+      "video_id": "9f57895bcf2049f83c1f0adc7e0cbcd8f269ba96a84cd67179443a9dd890e753"
     }
   },
   "system": {
@@ -785,6 +793,27 @@
       "scheduled_slot": "2026-11-04-slot-1",
       "status": "completed",
       "video_id": "9403d03137b7805d01298ab36cc0765cce115e3e8bd8786d2546db0b4381700f"
+    },
+    "9f57895bcf2049f83c1f0adc7e0cbcd8f269ba96a84cd67179443a9dd890e753": {
+      "attempts": 1,
+      "caption": "Misty mountain mornings hitting different in this Swiss lakeside village. Would you wake up to this view? #switzerland #alps #travel #nature #landscape",
+      "caption_generation_succeeded": true,
+      "container_id": "18146351176611986",
+      "filename": "Brienz.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-20T01:51:27.989134+00:00",
+      "last_error": null,
+      "publication_id": "18018952853971984",
+      "published_at": "2026-11-20T01:52:22.584511+00:00",
+      "scheduled_at": "2026-11-14T10:00:00-05:00",
+      "scheduled_slot": "2026-11-14-slot-1",
+      "status": "completed",
+      "video_id": "9f57895bcf2049f83c1f0adc7e0cbcd8f269ba96a84cd67179443a9dd890e753"
     },
     "a02662a808350630be76997527112c4216252394c6bc03e75ee22b2649f10069": {
       "attempts": 1,
