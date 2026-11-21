@@ -334,6 +334,14 @@
       "published_at": "2026-11-20T21:23:57.894223+00:00",
       "status": "published",
       "video_id": "a9e45e6bb9c871b38efab835f20607bbf93acb355e7c0d8c2abcbd669c81006a"
+    },
+    "2026-11-15-slot-1": {
+      "claimed_at": "2026-11-21T02:53:31.623160+00:00",
+      "filename": "ChateauDeChillon.mp4",
+      "publication_id": "18118925972591575",
+      "published_at": "2026-11-21T02:54:06.839001+00:00",
+      "status": "published",
+      "video_id": "bea2505887ff922b24a757eac27ac59c1be6b8e4ca17bb025d473f41eb4dac6a"
     }
   },
   "system": {
@@ -1031,6 +1039,27 @@
       "scheduled_slot": "2026-11-12-slot-1",
       "status": "completed",
       "video_id": "bdf54f128819e4f5d1dc94d900a1cc4e5009f747b8e9c7f976f8645386077df0"
+    },
+    "bea2505887ff922b24a757eac27ac59c1be6b8e4ca17bb025d473f41eb4dac6a": {
+      "attempts": 1,
+      "caption": "Nothing quite compares to the tranquil beauty of an alpine meadow in full bloom, where mountain streams and grazing cattle set the ultimate pace for slow living. #alps #nature #mountains #travel #scenery",
+      "caption_generation_succeeded": true,
+      "container_id": "18146454460611986",
+      "filename": "ChateauDeChillon.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-21T02:53:31.623160+00:00",
+      "last_error": null,
+      "publication_id": "18118925972591575",
+      "published_at": "2026-11-21T02:54:06.839001+00:00",
+      "scheduled_at": "2026-11-15T09:30:00-05:00",
+      "scheduled_slot": "2026-11-15-slot-1",
+      "status": "completed",
+      "video_id": "bea2505887ff922b24a757eac27ac59c1be6b8e4ca17bb025d473f41eb4dac6a"
     },
     "c2b704046ad4a8d0a549958854e12fecb499e69e16e891a812ddbbb617a62214": {
       "attempts": 1,
