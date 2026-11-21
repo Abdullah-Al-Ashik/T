@@ -342,6 +342,14 @@
       "published_at": "2026-11-21T02:54:06.839001+00:00",
       "status": "published",
       "video_id": "bea2505887ff922b24a757eac27ac59c1be6b8e4ca17bb025d473f41eb4dac6a"
+    },
+    "2026-11-15-slot-2": {
+      "claimed_at": "2026-11-21T20:43:17.685451+00:00",
+      "filename": "Chur.mp4",
+      "publication_id": "18157613911544949",
+      "published_at": "2026-11-21T20:43:51.638419+00:00",
+      "status": "published",
+      "video_id": "6231431d3e20378752991da302d6ee132f007786dc5714427cbf639de29ea56f"
     }
   },
   "system": {
@@ -578,6 +586,27 @@
       "scheduled_slot": "2026-11-03-slot-2",
       "status": "completed",
       "video_id": "61614d6195002e9ba146236156aefbfecb2a8d739d6c5ba82a84a6659b799a70"
+    },
+    "6231431d3e20378752991da302d6ee132f007786dc5714427cbf639de29ea56f": {
+      "attempts": 1,
+      "caption": "Soaking in the vibrant green meadows and rustic alpine charm of this mountain valley. #nature #mountains #valley #landscape #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18146530132611986",
+      "filename": "Chur.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-21T20:43:17.685451+00:00",
+      "last_error": null,
+      "publication_id": "18157613911544949",
+      "published_at": "2026-11-21T20:43:51.638419+00:00",
+      "scheduled_at": "2026-11-15T16:30:00-05:00",
+      "scheduled_slot": "2026-11-15-slot-2",
+      "status": "completed",
+      "video_id": "6231431d3e20378752991da302d6ee132f007786dc5714427cbf639de29ea56f"
     },
     "64a1bdebcfe60a2a572306c0481fdb5dff56e0273c5ee139d49ac6d8c55e43eb": {
       "attempts": 1,
