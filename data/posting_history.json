@@ -350,6 +350,14 @@
       "published_at": "2026-11-21T20:43:51.638419+00:00",
       "status": "published",
       "video_id": "6231431d3e20378752991da302d6ee132f007786dc5714427cbf639de29ea56f"
+    },
+    "2026-11-16-slot-1": {
+      "claimed_at": "2026-11-22T05:34:30.316724+00:00",
+      "filename": "Davos.mp4",
+      "publication_id": "18085042994361048",
+      "published_at": "2026-11-22T05:35:04.265045+00:00",
+      "status": "published",
+      "video_id": "168dc3b642f692b9668e04a7e74c84af3410a5295ce60843096f16635da5cbdd"
     }
   },
   "system": {
@@ -376,6 +384,27 @@
       "scheduled_slot": "2026-11-11-slot-2",
       "status": "completed",
       "video_id": "0a1459c7ba8b16c3d53d6667b69cba309396a46d3a8617cddfc681a01fe8ad49"
+    },
+    "168dc3b642f692b9668e04a7e74c84af3410a5295ce60843096f16635da5cbdd": {
+      "attempts": 1,
+      "caption": "Passing by this breathtaking lakeside view surrounded by lush green hills and towering mountains. Would you want to wake up to this scenery every day? #nature #mountains #lake #travel #scenery",
+      "caption_generation_succeeded": true,
+      "container_id": "18146563618611986",
+      "filename": "Davos.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-22T05:34:30.316724+00:00",
+      "last_error": null,
+      "publication_id": "18085042994361048",
+      "published_at": "2026-11-22T05:35:04.265045+00:00",
+      "scheduled_at": "2026-11-16T11:30:00-05:00",
+      "scheduled_slot": "2026-11-16-slot-1",
+      "status": "completed",
+      "video_id": "168dc3b642f692b9668e04a7e74c84af3410a5295ce60843096f16635da5cbdd"
     },
     "1a65819b7df196229a1c8d8e669d7d51402fa7dc3fa893326a19da3e670e8665": {
       "attempts": 1,
