@@ -358,6 +358,14 @@
       "published_at": "2026-11-22T05:35:04.265045+00:00",
       "status": "published",
       "video_id": "168dc3b642f692b9668e04a7e74c84af3410a5295ce60843096f16635da5cbdd"
+    },
+    "2026-11-16-slot-2": {
+      "claimed_at": "2026-11-22T20:47:59.409967+00:00",
+      "filename": "Disentis.mp4",
+      "publication_id": "18222830218348728",
+      "published_at": "2026-11-22T20:48:48.549591+00:00",
+      "status": "published",
+      "video_id": "a29d51ecef71e91c4681ff5f6c7a870f5b81f052f323d72e8364dd6efd4579a5"
     }
   },
   "system": {
@@ -951,6 +959,27 @@
       "scheduled_slot": "2026-11-03-slot-1",
       "status": "completed",
       "video_id": "a271169db4cc77746a2e8acbe9b8cfddf6af3b3ba6380711627c4cb1543b82a7"
+    },
+    "a29d51ecef71e91c4681ff5f6c7a870f5b81f052f323d72e8364dd6efd4579a5": {
+      "attempts": 1,
+      "caption": "Flying through a quiet alpine village tucked beneath the misty mountains and a roaring waterfall. #nature #travel #drone #mountains #village",
+      "caption_generation_succeeded": true,
+      "container_id": "18146631985611986",
+      "filename": "Disentis.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-22T20:47:59.409967+00:00",
+      "last_error": null,
+      "publication_id": "18222830218348728",
+      "published_at": "2026-11-22T20:48:48.549591+00:00",
+      "scheduled_at": "2026-11-16T19:30:00-05:00",
+      "scheduled_slot": "2026-11-16-slot-2",
+      "status": "completed",
+      "video_id": "a29d51ecef71e91c4681ff5f6c7a870f5b81f052f323d72e8364dd6efd4579a5"
     },
     "a7047a8c2b80a4afa3ea21533d077d97c67b32357da024e1abb38085f541628b": {
       "attempts": 1,
