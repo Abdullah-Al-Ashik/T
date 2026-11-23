@@ -366,6 +366,14 @@
       "published_at": "2026-11-22T20:48:48.549591+00:00",
       "status": "published",
       "video_id": "a29d51ecef71e91c4681ff5f6c7a870f5b81f052f323d72e8364dd6efd4579a5"
+    },
+    "2026-11-17-slot-1": {
+      "claimed_at": "2026-11-23T01:55:47.443690+00:00",
+      "filename": "Engelberg.mp4",
+      "publication_id": "17966774871247637",
+      "published_at": "2026-11-23T01:56:21.431701+00:00",
+      "status": "published",
+      "video_id": "7ca9566a9784c36a6790ea023525796d38c1298b3ff34dbb36c20bb9937896c2"
     }
   },
   "system": {
@@ -728,6 +736,27 @@
       "scheduled_slot": "2026-11-07-slot-2",
       "status": "completed",
       "video_id": "7a3c796642b90f6c47616064e87c1c4bced2b0bcd3ebb5c2a9e30810a49d0773"
+    },
+    "7ca9566a9784c36a6790ea023525796d38c1298b3ff34dbb36c20bb9937896c2": {
+      "attempts": 1,
+      "caption": "Breathe in that crisp alpine air. Where would you rather be right now? #nature #mountains #travel #landscape",
+      "caption_generation_succeeded": true,
+      "container_id": "18146649295611986",
+      "filename": "Engelberg.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-23T01:55:47.443690+00:00",
+      "last_error": null,
+      "publication_id": "17966774871247637",
+      "published_at": "2026-11-23T01:56:21.431701+00:00",
+      "scheduled_at": "2026-11-17T09:00:00-05:00",
+      "scheduled_slot": "2026-11-17-slot-1",
+      "status": "completed",
+      "video_id": "7ca9566a9784c36a6790ea023525796d38c1298b3ff34dbb36c20bb9937896c2"
     },
     "8093f6fc4e55bfe6f2ffbb792a69637403ab7ebff64a32ad82913b1f3014e37b": {
       "attempts": 1,
