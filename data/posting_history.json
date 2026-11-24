@@ -374,6 +374,14 @@
       "published_at": "2026-11-23T01:56:21.431701+00:00",
       "status": "published",
       "video_id": "7ca9566a9784c36a6790ea023525796d38c1298b3ff34dbb36c20bb9937896c2"
+    },
+    "2026-11-17-slot-2": {
+      "claimed_at": "2026-11-24T02:58:48.581106+00:00",
+      "filename": "Flims.mp4",
+      "publication_id": "17914144095581546",
+      "published_at": "2026-11-24T02:59:31.741554+00:00",
+      "status": "published",
+      "video_id": "ee425fb48b1644f453fe8b0886babcf7029f470fa7f36098070d968bc889b048"
     }
   },
   "system": {
@@ -1300,6 +1308,27 @@
       "scheduled_slot": "2026-11-02-slot-1",
       "status": "completed",
       "video_id": "dd3073057219d2a852c7091f1163bda7e2066d0c0cbec99277477e0bb746b155"
+    },
+    "ee425fb48b1644f453fe8b0886babcf7029f470fa7f36098070d968bc889b048": {
+      "attempts": 1,
+      "caption": "A scenic winding road leads through a lush green valley framed by towering cliffs and misty waterfalls. #nature #mountains #valley #waterfall #landscape",
+      "caption_generation_succeeded": true,
+      "container_id": "18146761105611986",
+      "filename": "Flims.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-24T02:58:48.581106+00:00",
+      "last_error": null,
+      "publication_id": "17914144095581546",
+      "published_at": "2026-11-24T02:59:31.741554+00:00",
+      "scheduled_at": "2026-11-17T14:30:00-05:00",
+      "scheduled_slot": "2026-11-17-slot-2",
+      "status": "completed",
+      "video_id": "ee425fb48b1644f453fe8b0886babcf7029f470fa7f36098070d968bc889b048"
     },
     "f06fb4af7fd1e2ad741063f69364a949b42d634c127d0f56029d0699ae5dc869": {
       "attempts": 1,
