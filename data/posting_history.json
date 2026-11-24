@@ -382,12 +382,41 @@
       "published_at": "2026-11-24T02:59:31.741554+00:00",
       "status": "published",
       "video_id": "ee425fb48b1644f453fe8b0886babcf7029f470fa7f36098070d968bc889b048"
+    },
+    "2026-11-18-slot-1": {
+      "claimed_at": "2026-11-24T10:09:48.851585+00:00",
+      "filename": "Fribourg.mp4",
+      "publication_id": "18079785419460574",
+      "published_at": "2026-11-24T10:10:21.818975+00:00",
+      "status": "published",
+      "video_id": "00e5cdf867b7710a16b0115c64653a024aa2dfe5df33d2cb69451141c9a61274"
     }
   },
   "system": {
     "schedule_initialized_at": "2026-10-25"
   },
   "videos": {
+    "00e5cdf867b7710a16b0115c64653a024aa2dfe5df33d2cb69451141c9a61274": {
+      "attempts": 1,
+      "caption": "From snowy mountain peaks and alpine streets to lush green valleys and scenic train rides, Switzerland truly feels like stepping into a postcard. Which spot would you visit first? #Switzerland #SwissAlps #TravelVibes #MountainViews",
+      "caption_generation_succeeded": true,
+      "container_id": "18146791708611986",
+      "filename": "Fribourg.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-24T10:09:48.851585+00:00",
+      "last_error": null,
+      "publication_id": "18079785419460574",
+      "published_at": "2026-11-24T10:10:21.818975+00:00",
+      "scheduled_at": "2026-11-18T08:00:00-05:00",
+      "scheduled_slot": "2026-11-18-slot-1",
+      "status": "completed",
+      "video_id": "00e5cdf867b7710a16b0115c64653a024aa2dfe5df33d2cb69451141c9a61274"
+    },
     "0a1459c7ba8b16c3d53d6667b69cba309396a46d3a8617cddfc681a01fe8ad49": {
       "attempts": 1,
       "caption": "A peaceful alpine village nestled beside a pristine lake and towering mountains. Would you wake up to this view every morning? #alpinevillage #mountainview #lakelife #travelswitzerland",
