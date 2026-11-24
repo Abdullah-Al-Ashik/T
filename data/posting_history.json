@@ -390,6 +390,14 @@
       "published_at": "2026-11-24T10:10:21.818975+00:00",
       "status": "published",
       "video_id": "00e5cdf867b7710a16b0115c64653a024aa2dfe5df33d2cb69451141c9a61274"
+    },
+    "2026-11-18-slot-2": {
+      "claimed_at": "2026-11-24T23:26:22.828836+00:00",
+      "filename": "Furka.mp4",
+      "publication_id": "18102637148401087",
+      "published_at": "2026-11-24T23:27:39.236556+00:00",
+      "status": "published",
+      "video_id": "cf25357fafd130216c1c20d451660bde1f22c378b8166d9c63208e3fcf42193a"
     }
   },
   "system": {
@@ -1295,6 +1303,27 @@
       "scheduled_slot": "2026-10-31-slot-1",
       "status": "completed",
       "video_id": "cca6556f8392d8d33a58dc1c48947824885f5666980c28fecd74fd29ecdba6ae"
+    },
+    "cf25357fafd130216c1c20d451660bde1f22c378b8166d9c63208e3fcf42193a": {
+      "attempts": 1,
+      "caption": "Strolling through this sunlit lakeside garden feels like stepping into a postcard. Can you spot your favorite spot by the water? #lakegarden #travel #nature #scenery #summer",
+      "caption_generation_succeeded": true,
+      "container_id": "18146847256611986",
+      "filename": "Furka.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-24T23:26:22.828836+00:00",
+      "last_error": null,
+      "publication_id": "18102637148401087",
+      "published_at": "2026-11-24T23:27:39.236556+00:00",
+      "scheduled_at": "2026-11-18T18:30:00-05:00",
+      "scheduled_slot": "2026-11-18-slot-2",
+      "status": "completed",
+      "video_id": "cf25357fafd130216c1c20d451660bde1f22c378b8166d9c63208e3fcf42193a"
     },
     "d0cd8a82102f0f3db93e1ee6bc5e2e29ca0c5e85a7d436706a4bae148a6f724b": {
       "attempts": 1,
