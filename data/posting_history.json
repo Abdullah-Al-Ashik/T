@@ -398,6 +398,14 @@
       "published_at": "2026-11-24T23:27:39.236556+00:00",
       "status": "published",
       "video_id": "cf25357fafd130216c1c20d451660bde1f22c378b8166d9c63208e3fcf42193a"
+    },
+    "2026-11-19-slot-1": {
+      "claimed_at": "2026-11-25T03:07:30.522278+00:00",
+      "filename": "Geneva.mp4",
+      "publication_id": "18116002295144340",
+      "published_at": "2026-11-25T03:08:10.737578+00:00",
+      "status": "published",
+      "video_id": "439e6539ccda3667763cad4181d6603ee0230c72f6ca5dcc5a761140ef6a7cd2"
     }
   },
   "system": {
@@ -571,6 +579,27 @@
       "scheduled_slot": "2026-11-13-slot-1",
       "status": "completed",
       "video_id": "3ca1354ac953bd1ca6a0a83c78029d385952143afccd5fc1376f52fa896183a1"
+    },
+    "439e6539ccda3667763cad4181d6603ee0230c72f6ca5dcc5a761140ef6a7cd2": {
+      "attempts": 1,
+      "caption": "Golden morning light breaks through the mountain peaks, casting sunbeams over a lush green valley filled with alpine wildflowers. #mountains #sunrise #nature #alps #landscape",
+      "caption_generation_succeeded": true,
+      "container_id": "18146858482611986",
+      "filename": "Geneva.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-25T03:07:30.522278+00:00",
+      "last_error": null,
+      "publication_id": "18116002295144340",
+      "published_at": "2026-11-25T03:08:10.737578+00:00",
+      "scheduled_at": "2026-11-19T11:00:00-05:00",
+      "scheduled_slot": "2026-11-19-slot-1",
+      "status": "completed",
+      "video_id": "439e6539ccda3667763cad4181d6603ee0230c72f6ca5dcc5a761140ef6a7cd2"
     },
     "474b9b8d4926c9dbd4641efcf5b2d42d7edce5ceb2957685c0e5096d0a5a18e3": {
       "attempts": 1,
