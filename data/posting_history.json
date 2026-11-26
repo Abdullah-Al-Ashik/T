@@ -414,6 +414,14 @@
       "published_at": "2026-11-25T22:03:18.121113+00:00",
       "status": "published",
       "video_id": "a749cc2fc7e816d8685e6480fbf414b0e390fc57ad5950d8c6391b5e3bbbbd3a"
+    },
+    "2026-11-20-slot-1": {
+      "claimed_at": "2026-11-26T05:19:58.056394+00:00",
+      "filename": "GlacierExpress.mp4",
+      "publication_id": "18346065094257958",
+      "published_at": "2026-11-26T05:20:40.786099+00:00",
+      "status": "published",
+      "video_id": "3084d36ae9bcbeb16ad6c264cead1daf685ba16c5a99be09107f6b50a76473c6"
     }
   },
   "system": {
@@ -545,6 +553,27 @@
       "scheduled_slot": "2026-11-06-slot-2",
       "status": "completed",
       "video_id": "2e9f701a05f994261c126f5825f8abf9b57fa5e938e2cc7ac17c19a4ab2a88e9"
+    },
+    "3084d36ae9bcbeb16ad6c264cead1daf685ba16c5a99be09107f6b50a76473c6": {
+      "attempts": 1,
+      "caption": "Breathtaking landscapes and charming alpine villages tucked away in the Swiss Alps. Would you visit here? #Switzerland #Alps #Travel #Nature #Mountains",
+      "caption_generation_succeeded": true,
+      "container_id": "18146953042611986",
+      "filename": "GlacierExpress.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-26T05:19:58.056394+00:00",
+      "last_error": null,
+      "publication_id": "18346065094257958",
+      "published_at": "2026-11-26T05:20:40.786099+00:00",
+      "scheduled_at": "2026-11-20T08:30:00-05:00",
+      "scheduled_slot": "2026-11-20-slot-1",
+      "status": "completed",
+      "video_id": "3084d36ae9bcbeb16ad6c264cead1daf685ba16c5a99be09107f6b50a76473c6"
     },
     "32ff6f9522e4ee8b99d25c68abf8ca45583e5247851ab072dfa983483fba5c41": {
       "attempts": 1,
