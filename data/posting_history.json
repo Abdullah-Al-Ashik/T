@@ -422,6 +422,14 @@
       "published_at": "2026-11-26T05:20:40.786099+00:00",
       "status": "published",
       "video_id": "3084d36ae9bcbeb16ad6c264cead1daf685ba16c5a99be09107f6b50a76473c6"
+    },
+    "2026-11-20-slot-2": {
+      "claimed_at": "2026-11-27T00:11:11.794688+00:00",
+      "filename": "GoldenPass.mp4",
+      "publication_id": "17946870174381570",
+      "published_at": "2026-11-27T00:11:42.841076+00:00",
+      "status": "published",
+      "video_id": "ef8242eaeae5c691f7024252f8b99906081d8c73fd4291dd687c5e69e277d80e"
     }
   },
   "system": {
@@ -1474,6 +1482,27 @@
       "scheduled_slot": "2026-11-17-slot-2",
       "status": "completed",
       "video_id": "ee425fb48b1644f453fe8b0886babcf7029f470fa7f36098070d968bc889b048"
+    },
+    "ef8242eaeae5c691f7024252f8b99906081d8c73fd4291dd687c5e69e277d80e": {
+      "attempts": 1,
+      "caption": "A charming alpine village nestled below lush, cloud-draped mountain peaks. #alpine #village #mountains #nature #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18147046057611986",
+      "filename": "GoldenPass.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-27T00:11:11.794688+00:00",
+      "last_error": null,
+      "publication_id": "17946870174381570",
+      "published_at": "2026-11-27T00:11:42.841076+00:00",
+      "scheduled_at": "2026-11-20T17:00:00-05:00",
+      "scheduled_slot": "2026-11-20-slot-2",
+      "status": "completed",
+      "video_id": "ef8242eaeae5c691f7024252f8b99906081d8c73fd4291dd687c5e69e277d80e"
     },
     "f06fb4af7fd1e2ad741063f69364a949b42d634c127d0f56029d0699ae5dc869": {
       "attempts": 1,
