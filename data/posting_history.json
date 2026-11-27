@@ -438,6 +438,14 @@
       "published_at": "2026-11-27T03:08:48.963674+00:00",
       "status": "published",
       "video_id": "556654d4d9afd04762b5a8a7caf90bfbee93562fc7eb6d55013a59dcfa4a2cdc"
+    },
+    "2026-11-21-slot-2": {
+      "claimed_at": "2026-11-27T22:11:39.986170+00:00",
+      "filename": "GottardPass.mp4",
+      "publication_id": "18154821103541740",
+      "published_at": "2026-11-27T22:12:14.596133+00:00",
+      "status": "published",
+      "video_id": "274f60b6398feb2bf0e4ac06a146aff2b1be64e82b5d277aa45531c361dbfb3b"
     }
   },
   "system": {
@@ -527,6 +535,27 @@
       "scheduled_slot": "2026-11-07-slot-1",
       "status": "completed",
       "video_id": "1a65819b7df196229a1c8d8e669d7d51402fa7dc3fa893326a19da3e670e8665"
+    },
+    "274f60b6398feb2bf0e4ac06a146aff2b1be64e82b5d277aa45531c361dbfb3b": {
+      "attempts": 1,
+      "caption": "A winding path leads through a lush green valley beneath towering snow-capped mountain peaks. #mountains #valley #nature #landscape #travel",
+      "caption_generation_succeeded": true,
+      "container_id": "18147129250611986",
+      "filename": "GottardPass.mp4",
+      "frame_timestamps": [
+        0.0,
+        1.67,
+        3.33,
+        5.0
+      ],
+      "last_attempt_at": "2026-11-27T22:11:39.986170+00:00",
+      "last_error": null,
+      "publication_id": "18154821103541740",
+      "published_at": "2026-11-27T22:12:14.596133+00:00",
+      "scheduled_at": "2026-11-21T19:00:00-05:00",
+      "scheduled_slot": "2026-11-21-slot-2",
+      "status": "completed",
+      "video_id": "274f60b6398feb2bf0e4ac06a146aff2b1be64e82b5d277aa45531c361dbfb3b"
     },
     "2b8ec9c2844dbd5fe28006acbfc169ce5b6fb6545a7afcc71db1cdca0bbcbc31": {
       "attempts": 1,
